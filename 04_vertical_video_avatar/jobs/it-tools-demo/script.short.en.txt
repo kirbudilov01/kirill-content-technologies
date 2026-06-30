@@ -1,0 +1,2 @@
+This is IT Tools: an open-source toolbox for developers that runs locally.
+AtlasRepo should find projects like this, launch them, record the demo, and turn every useful repo into content and action.

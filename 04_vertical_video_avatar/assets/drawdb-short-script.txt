@@ -1,0 +1,3 @@
+This repo turns database design into a visual canvas.
+Draw tables, connect relationships, export SQL, and run it locally for free.
+No signup, no cloud lock-in, just open source power.

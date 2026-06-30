@@ -1,0 +1,612 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Atlas Repo Essay Carousel</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        --white: #f8fbff;
+        --muted: rgba(248, 251, 255, 0.72);
+        --dim: rgba(248, 251, 255, 0.52);
+        --blue: #18b9ff;
+        --purple: #9d5cff;
+        --line: rgba(255, 255, 255, 0.16);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        margin: 0;
+        background: #000;
+        font-family:
+          Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+          "SF Pro Display", "Segoe UI", sans-serif;
+      }
+
+      body {
+        display: grid;
+        justify-content: center;
+        gap: 40px;
+        padding: 40px;
+      }
+
+      body.single {
+        display: block;
+        padding: 0;
+      }
+
+      .slide {
+        position: relative;
+        width: 1080px;
+        height: 1350px;
+        overflow: hidden;
+        color: var(--white);
+        background:
+          radial-gradient(circle at 76% 10%, rgba(157, 92, 255, 0.34), transparent 28%),
+          radial-gradient(circle at 10% 92%, rgba(24, 185, 255, 0.28), transparent 32%),
+          linear-gradient(180deg, #06070d 0%, #020308 55%, #000 100%);
+        isolation: isolate;
+      }
+
+      body.single .slide {
+        display: none;
+      }
+
+      body.single .slide.active {
+        display: block;
+      }
+
+      .slide::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        z-index: -2;
+        background-image:
+          linear-gradient(rgba(255, 255, 255, 0.035) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(255, 255, 255, 0.026) 1px, transparent 1px);
+        background-size: 72px 72px;
+        mask-image: radial-gradient(circle at 48% 48%, black 0%, transparent 72%);
+      }
+
+      .slide::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        pointer-events: none;
+        background:
+          linear-gradient(180deg, rgba(255, 255, 255, 0.07), transparent 10%),
+          radial-gradient(circle at 50% 54%, transparent 50%, rgba(0, 0, 0, 0.72) 100%);
+      }
+
+      .meta {
+        position: absolute;
+        top: 54px;
+        left: 64px;
+        right: 64px;
+        z-index: 5;
+        display: flex;
+        justify-content: space-between;
+        color: rgba(248, 251, 255, 0.58);
+        font-size: 22px;
+        font-weight: 760;
+      }
+
+      .num {
+        color: var(--blue);
+        text-shadow: 0 0 24px rgba(24, 185, 255, 0.62);
+      }
+
+      .copy {
+        position: absolute;
+        top: 122px;
+        left: 64px;
+        right: 64px;
+        z-index: 5;
+      }
+
+      .eyebrow {
+        margin: 0 0 24px;
+        color: var(--blue);
+        font-size: 27px;
+        line-height: 1;
+        font-weight: 820;
+      }
+
+      h1 {
+        margin: 0;
+        max-width: 940px;
+        font-size: 82px;
+        line-height: 0.94;
+        font-weight: 860;
+        letter-spacing: 0;
+        text-shadow: 0 0 42px rgba(24, 185, 255, 0.15);
+      }
+
+      .lead {
+        margin: 34px 0 0;
+        max-width: 914px;
+        color: var(--muted);
+        font-size: 36px;
+        line-height: 1.24;
+        font-weight: 600;
+      }
+
+      .lead strong {
+        color: #fff;
+        font-weight: 860;
+      }
+
+      .glass {
+        border: 1px solid var(--line);
+        background:
+          linear-gradient(135deg, rgba(255, 255, 255, 0.13), rgba(255, 255, 255, 0.045)),
+          rgba(9, 14, 26, 0.58);
+        box-shadow:
+          inset 0 1px 0 rgba(255, 255, 255, 0.16),
+          0 30px 100px rgba(0, 0, 0, 0.44),
+          0 0 72px rgba(24, 185, 255, 0.15);
+        backdrop-filter: blur(24px);
+      }
+
+      .visual {
+        position: absolute;
+        left: 64px;
+        right: 64px;
+        bottom: 74px;
+        height: 430px;
+        z-index: 2;
+      }
+
+      .footer {
+        position: absolute;
+        left: 64px;
+        right: 64px;
+        bottom: 54px;
+        z-index: 6;
+        display: flex;
+        justify-content: space-between;
+        color: rgba(248, 251, 255, 0.62);
+        font-size: 24px;
+        font-weight: 720;
+      }
+
+      .chip-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-top: 28px;
+      }
+
+      .chip {
+        min-height: 46px;
+        display: inline-flex;
+        align-items: center;
+        padding: 0 16px;
+        border-radius: 999px;
+        border: 1px solid rgba(24, 185, 255, 0.34);
+        background: rgba(24, 185, 255, 0.08);
+        color: rgba(248, 251, 255, 0.82);
+        font-size: 20px;
+        font-weight: 780;
+      }
+
+      .node {
+        position: absolute;
+        border-radius: 999px;
+        background: radial-gradient(circle at 34% 24%, #fff, #54cdff 15%, #0765ff 45%, #050611 72%);
+        box-shadow:
+          0 0 28px rgba(24, 185, 255, 0.82),
+          0 0 88px rgba(157, 92, 255, 0.34);
+      }
+
+      .line {
+        position: absolute;
+        height: 2px;
+        background: linear-gradient(90deg, transparent, rgba(24, 185, 255, 0.9), transparent);
+        box-shadow: 0 0 20px rgba(24, 185, 255, 0.7);
+        transform-origin: left center;
+      }
+
+      .panel {
+        position: absolute;
+        border-radius: 8px;
+      }
+
+      .s1 h1 {
+        font-size: 104px;
+      }
+
+      .s1 .visual {
+        height: 500px;
+      }
+
+      .tower {
+        position: absolute;
+        bottom: 0;
+        width: 86px;
+        border: 1px solid rgba(24, 185, 255, 0.28);
+        background:
+          repeating-linear-gradient(180deg, rgba(24, 185, 255, 0.32) 0 3px, transparent 3px 30px),
+          linear-gradient(180deg, rgba(255, 255, 255, 0.1), rgba(14, 25, 52, 0.34));
+        box-shadow: 0 0 48px rgba(24, 185, 255, 0.22);
+        transform: skewX(-7deg);
+      }
+
+      .founder {
+        position: absolute;
+        left: 392px;
+        bottom: 42px;
+        width: 220px;
+        height: 360px;
+      }
+
+      .founder::before {
+        content: "";
+        position: absolute;
+        left: 72px;
+        top: 0;
+        width: 78px;
+        height: 78px;
+        border-radius: 50%;
+        background: linear-gradient(145deg, #fff, #64718f);
+      }
+
+      .founder::after {
+        content: "";
+        position: absolute;
+        left: 42px;
+        top: 96px;
+        width: 140px;
+        height: 242px;
+        border-radius: 64px 64px 36px 36px;
+        border: 1px solid rgba(255, 255, 255, 0.16);
+        background: linear-gradient(150deg, #111827, #02030a 52%, #1a46ff);
+      }
+
+      .workflow-card {
+        width: 176px;
+        height: 104px;
+        border-radius: 8px;
+      }
+
+      .code-card {
+        width: 396px;
+        height: 270px;
+        padding: 28px;
+        border-radius: 8px;
+      }
+
+      .code-line {
+        height: 18px;
+        margin-bottom: 20px;
+        border-radius: 999px;
+        background: linear-gradient(90deg, rgba(24, 185, 255, 0.82), rgba(157, 92, 255, 0.24));
+      }
+
+      .browser-card {
+        width: 500px;
+        height: 285px;
+        padding: 24px;
+        border-radius: 8px;
+      }
+
+      .bar {
+        height: 34px;
+        border-radius: 999px;
+        margin-bottom: 24px;
+        background: rgba(255, 255, 255, 0.12);
+      }
+
+      .block {
+        height: 92px;
+        margin-bottom: 18px;
+        border-radius: 8px;
+        background: linear-gradient(135deg, rgba(24, 185, 255, 0.2), rgba(157, 92, 255, 0.14));
+      }
+
+      .memory {
+        position: absolute;
+        left: 254px;
+        top: 0;
+        width: 430px;
+        height: 430px;
+        border-radius: 50%;
+        background:
+          radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.92) 0 4%, rgba(24, 185, 255, 0.44) 5% 20%, rgba(157, 92, 255, 0.18) 21% 42%, transparent 43%),
+          conic-gradient(from 30deg, rgba(24, 185, 255, 0.8), rgba(157, 92, 255, 0.12), rgba(255, 79, 216, 0.52), rgba(24, 185, 255, 0.8));
+        filter: drop-shadow(0 0 80px rgba(157, 92, 255, 0.3));
+      }
+
+      .stack-grid {
+        position: absolute;
+        left: 64px;
+        right: 64px;
+        bottom: 72px;
+        z-index: 4;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 14px;
+      }
+
+      .stack-item {
+        min-height: 78px;
+        padding: 16px 18px;
+        border-radius: 8px;
+      }
+
+      .stack-item strong {
+        display: block;
+        color: #fff;
+        font-size: 25px;
+        line-height: 1;
+      }
+
+      .stack-item span {
+        display: block;
+        margin-top: 8px;
+        color: rgba(248, 251, 255, 0.66);
+        font-size: 19px;
+        line-height: 1.15;
+        font-weight: 620;
+      }
+
+      .s9 .copy {
+        top: 112px;
+      }
+
+      .s9 h1 {
+        font-size: 74px;
+      }
+
+      .s9 .lead {
+        font-size: 31px;
+        max-width: 940px;
+      }
+
+      .s10 h1 {
+        font-size: 92px;
+      }
+
+      .s10 .lead {
+        max-width: 930px;
+        font-size: 38px;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="slide s1" id="slide-1">
+      <div class="meta"><span>ATLAS REPO</span><span class="num">01/10</span></div>
+      <div class="copy">
+        <p class="eyebrow">OPEN-SOURCE LEVERAGE</p>
+        <h1>10 open-source repositories that can replace entire departments</h1>
+        <p class="lead">
+          This is not a list of trendy tools. These are systems a small team can use to build operations,
+          engineering, marketing, AI products and internal knowledge without hiring a full company. All of them
+          are open-source. Swipe to see the stack.
+        </p>
+      </div>
+      <div class="visual">
+        <div class="tower" style="left: -20px; height: 230px"></div>
+        <div class="tower" style="left: 110px; height: 360px"></div>
+        <div class="tower" style="left: 245px; height: 280px"></div>
+        <div class="tower" style="left: 390px; height: 440px"></div>
+        <div class="tower" style="left: 535px; height: 500px"></div>
+        <div class="tower" style="left: 690px; height: 380px"></div>
+        <div class="tower" style="left: 830px; height: 460px"></div>
+        <div class="node" style="left: 178px; top: 188px; width: 34px; height: 34px"></div>
+        <div class="node" style="left: 520px; top: 108px; width: 44px; height: 44px"></div>
+        <div class="node" style="left: 760px; top: 218px; width: 32px; height: 32px"></div>
+        <div class="line" style="left: 205px; top: 205px; width: 340px; transform: rotate(-17deg)"></div>
+        <div class="line" style="left: 548px; top: 128px; width: 270px; transform: rotate(24deg)"></div>
+      </div>
+      <div class="footer"><span>atlasrepo.com</span><span>open-source leverage</span></div>
+    </section>
+
+    <section class="slide s2" id="slide-2">
+      <div class="meta"><span>SYSTEM SHIFT</span><span class="num">02/10</span></div>
+      <div class="copy">
+        <p class="eyebrow">WHY IT MATTERS</p>
+        <h1>Companies used to grow by hiring. Now they grow through software.</h1>
+        <p class="lead">
+          Operations, junior engineering, marketing, analytics, support and project management used to be separate roles. Now part of that work can be absorbed by open-source software and AI agents. Not to make people irrelevant, but to give one founder leverage that used to require a team.
+        </p>
+      </div>
+      <div class="visual">
+        <div class="founder"></div>
+        <div class="line" style="left: 120px; top: 190px; width: 730px; transform: rotate(-8deg)"></div>
+        <div class="line" style="left: 140px; top: 310px; width: 690px; transform: rotate(10deg)"></div>
+        <div class="node" style="left: 72px; top: 166px; width: 44px; height: 44px"></div>
+        <div class="node" style="right: 76px; top: 98px; width: 36px; height: 36px"></div>
+        <div class="node" style="left: 126px; top: 328px; width: 34px; height: 34px"></div>
+        <div class="node" style="right: 88px; top: 360px; width: 46px; height: 46px"></div>
+      </div>
+    </section>
+
+    <section class="slide" id="slide-3">
+      <div class="meta"><span>AUTOMATION LAYER</span><span class="num">03/10</span></div>
+      <div class="copy">
+        <p class="eyebrow">01. n8n</p>
+        <h1>n8n can replace your operations layer</h1>
+        <p class="lead">
+          <strong>n8n connects APIs, CRMs, spreadsheets, databases, alerts and internal tools.</strong>
+          Work that used to be done manually every day becomes an automated workflow: requests, emails, reports,
+          status updates, sync jobs and triggers start running by themselves.
+        </p>
+        <div class="chip-row"><span class="chip">operations</span><span class="chip">automation</span><span class="chip">internal workflows</span></div>
+      </div>
+      <div class="visual">
+        <div class="panel glass workflow-card" style="left: 60px; top: 230px"></div>
+        <div class="panel glass workflow-card" style="left: 300px; top: 90px"></div>
+        <div class="panel glass workflow-card" style="left: 540px; top: 220px"></div>
+        <div class="panel glass workflow-card" style="right: 48px; top: 52px"></div>
+        <div class="line" style="left: 200px; top: 280px; width: 250px; transform: rotate(-32deg)"></div>
+        <div class="line" style="left: 436px; top: 150px; width: 260px; transform: rotate(29deg)"></div>
+        <div class="line" style="left: 680px; top: 262px; width: 220px; transform: rotate(-48deg)"></div>
+      </div>
+    </section>
+
+    <section class="slide" id="slide-4">
+      <div class="meta"><span>ENGINEERING AGENT</span><span class="num">04/10</span></div>
+      <div class="copy">
+        <p class="eyebrow">02. OpenHands</p>
+        <h1>OpenHands acts like an AI engineer inside your repository</h1>
+        <p class="lead">
+          It can read code, edit files, run commands and move through an engineering task as an autonomous executor. The best use cases are routine coding, bug fixes, prototypes, migrations and tasks that should not consume your strongest developer.
+        </p>
+        <div class="chip-row"><span class="chip">coding agent</span><span class="chip">bugfixes</span><span class="chip">repo execution</span></div>
+      </div>
+      <div class="visual">
+        <div class="panel glass code-card" style="left: 120px; top: 86px">
+          <div class="code-line" style="width: 74%"></div><div class="code-line" style="width: 88%"></div><div class="code-line" style="width: 62%"></div><div class="code-line" style="width: 82%"></div>
+        </div>
+        <div class="panel glass code-card" style="right: 80px; top: 36px">
+          <div class="code-line" style="width: 64%"></div><div class="code-line" style="width: 92%"></div><div class="code-line" style="width: 76%"></div><div class="code-line" style="width: 54%"></div>
+        </div>
+        <div class="node" style="left: 688px; top: 160px; width: 86px; height: 86px"></div>
+      </div>
+    </section>
+
+    <section class="slide" id="slide-5">
+      <div class="meta"><span>WEB OPERATOR</span><span class="num">05/10</span></div>
+      <div class="copy">
+        <p class="eyebrow">03. Browser Use</p>
+        <h1>Browser Use gives AI agents a real browser</h1>
+        <p class="lead">
+          An agent can open websites, click buttons, fill forms, collect data and complete web workflows. It replaces repetitive browser work: research, lead generation, checks, admin panels, monitoring and anything where a human is mostly clicking through interfaces.
+        </p>
+        <div class="chip-row"><span class="chip">web agents</span><span class="chip">research</span><span class="chip">browser automation</span></div>
+      </div>
+      <div class="visual">
+        <div class="panel glass browser-card" style="left: 40px; top: 76px"><div class="bar"></div><div class="block"></div><div class="block" style="width: 68%"></div></div>
+        <div class="panel glass browser-card" style="right: 24px; top: 170px"><div class="bar"></div><div class="block"></div><div class="block" style="width: 80%"></div></div>
+        <div class="line" style="left: 438px; top: 214px; width: 270px; transform: rotate(-12deg)"></div>
+        <div class="node" style="left: 630px; top: 178px; width: 44px; height: 44px"></div>
+      </div>
+    </section>
+
+    <section class="slide" id="slide-6">
+      <div class="meta"><span>AI PRODUCT OS</span><span class="num">06/10</span></div>
+      <div class="copy">
+        <p class="eyebrow">04. Dify</p>
+        <h1>Dify helps you launch AI products faster</h1>
+        <p class="lead">
+          It gives you workflows, agents, knowledge bases and prompt management in one product layer. If you need an assistant, a RAG system, an agent workflow or an internal AI tool, Dify shortens the path from idea to shipped product.
+        </p>
+        <div class="chip-row"><span class="chip">AI apps</span><span class="chip">RAG</span><span class="chip">agent workflows</span></div>
+      </div>
+      <div class="visual">
+        <div class="panel glass" style="left: 34px; top: 24px; width: 560px; height: 342px; padding: 26px">
+          <div class="block" style="height: 120px"></div><div class="block"></div>
+        </div>
+        <div class="panel glass" style="right: 40px; top: 80px; width: 320px; height: 270px; padding: 26px">
+          <div class="chip">Agent</div><div class="block" style="margin-top: 24px"></div>
+        </div>
+        <div class="node" style="left: 502px; top: 142px; width: 84px; height: 84px"></div>
+      </div>
+    </section>
+
+    <section class="slide" id="slide-7">
+      <div class="meta"><span>DISTRIBUTION ENGINE</span><span class="num">07/10</span></div>
+      <div class="copy">
+        <p class="eyebrow">05. Postiz</p>
+        <h1>Postiz replaces part of your marketing stack</h1>
+        <p class="lead">
+          It is your own system for content distribution: planning, calendars, scheduling and publishing across
+          channels. For a small team, Postiz can cover the job of a scheduler, a content calendar and marketing
+          operations.
+        </p>
+        <div class="chip-row"><span class="chip">content calendar</span><span class="chip">publishing</span><span class="chip">marketing ops</span></div>
+      </div>
+      <div class="visual">
+        <div class="panel glass" style="left: 388px; top: 150px; width: 250px; height: 134px"></div>
+        <div class="panel glass" style="left: 54px; top: 42px; width: 210px; height: 112px"></div>
+        <div class="panel glass" style="right: 54px; top: 42px; width: 210px; height: 112px"></div>
+        <div class="panel glass" style="left: 108px; top: 300px; width: 210px; height: 112px"></div>
+        <div class="panel glass" style="right: 108px; top: 300px; width: 210px; height: 112px"></div>
+        <div class="line" style="left: 252px; top: 104px; width: 260px; transform: rotate(20deg)"></div>
+        <div class="line" style="left: 568px; top: 104px; width: 250px; transform: rotate(-20deg)"></div>
+        <div class="line" style="left: 292px; top: 332px; width: 220px; transform: rotate(-28deg)"></div>
+        <div class="line" style="left: 566px; top: 330px; width: 220px; transform: rotate(28deg)"></div>
+      </div>
+    </section>
+
+    <section class="slide" id="slide-8">
+      <div class="meta"><span>CONTEXT LAYER</span><span class="num">08/10</span></div>
+      <div class="copy">
+        <p class="eyebrow">05. Mem0</p>
+        <h1>Mem0 gives AI systems memory</h1>
+        <p class="lead">
+          Without memory, AI is just a chat window. Mem0 helps agents remember users, decisions, preferences, history and context across sessions. With memory, AI starts behaving like a product that improves after every interaction.
+        </p>
+        <div class="chip-row"><span class="chip">persistent memory</span><span class="chip">personalization</span><span class="chip">context</span></div>
+      </div>
+      <div class="visual">
+        <div class="memory"></div>
+        <div class="node" style="left: 124px; top: 180px; width: 38px; height: 38px"></div>
+        <div class="node" style="right: 112px; top: 112px; width: 44px; height: 44px"></div>
+        <div class="node" style="right: 210px; top: 314px; width: 34px; height: 34px"></div>
+        <div class="line" style="left: 150px; top: 200px; width: 330px; transform: rotate(-8deg)"></div>
+        <div class="line" style="left: 600px; top: 168px; width: 254px; transform: rotate(-12deg)"></div>
+        <div class="line" style="left: 560px; top: 300px; width: 210px; transform: rotate(18deg)"></div>
+      </div>
+    </section>
+
+    <section class="slide s9" id="slide-9">
+      <div class="meta"><span>THE STACK</span><span class="num">09/10</span></div>
+      <div class="copy">
+        <p class="eyebrow">HOW IT COMPOUNDS</p>
+        <h1>One founder can assemble a digital company</h1>
+        <p class="lead">
+          One repository does not replace everything. The leverage appears when multiple open-source systems cover different company functions and connect into one operating stack.
+        </p>
+      </div>
+      <div class="stack-grid">
+        <div class="stack-item glass"><strong>n8n</strong><span>operations and internal workflows</span></div>
+        <div class="stack-item glass"><strong>OpenHands</strong><span>AI executor for engineering tasks</span></div>
+        <div class="stack-item glass"><strong>Browser Use</strong><span>an agent that operates the web</span></div>
+        <div class="stack-item glass"><strong>Dify</strong><span>AI products and assistants</span></div>
+        <div class="stack-item glass"><strong>Postiz</strong><span>content, publishing and distribution</span></div>
+        <div class="stack-item glass"><strong>Mem0</strong><span>memory and personal context for AI</span></div>
+        <div class="stack-item glass"><strong>Cal.com</strong><span>open-source scheduling and bookings</span></div>
+        <div class="stack-item glass"><strong>Docmost</strong><span>documentation and internal knowledge</span></div>
+        <div class="stack-item glass"><strong>Supabase</strong><span>backend, database, auth and storage</span></div>
+        <div class="stack-item glass"><strong>Plane</strong><span>project management without heavy PM suites</span></div>
+      </div>
+    </section>
+
+    <section class="slide s10" id="slide-10">
+      <div class="meta"><span>ATLAS REPO</span><span class="num">10/10</span></div>
+      <div class="copy">
+        <p class="eyebrow">WHERE TO FIND THESE PROJECTS</p>
+        <h1>We collect these open-source discoveries on Atlas Repo</h1>
+        <p class="lead">
+          Visit <strong>atlasrepo.com</strong> or use the link in profile. We curate GitHub projects that help founders get more leverage, reduce costs and build products faster.
+        </p>
+      </div>
+      <div class="visual">
+        <div class="tower" style="left: 180px; height: 180px"></div>
+        <div class="tower" style="left: 300px; height: 130px"></div>
+        <div class="tower" style="left: 470px; height: 390px; width: 96px"></div>
+        <div class="tower" style="left: 680px; height: 210px"></div>
+        <div class="tower" style="left: 800px; height: 150px"></div>
+        <div class="line" style="left: 205px; top: 220px; width: 650px; transform: rotate(-4deg)"></div>
+        <div class="line" style="left: 270px; top: 320px; width: 500px; transform: rotate(7deg)"></div>
+        <div class="node" style="left: 500px; top: 120px; width: 54px; height: 54px"></div>
+      </div>
+      <div class="footer"><span>atlasrepo.com</span><span>link in profile</span></div>
+    </section>
+
+    <script>
+      const slide = new URLSearchParams(location.search).get("slide");
+      if (slide) {
+        document.body.classList.add("single");
+        document.getElementById(`slide-${slide}`)?.classList.add("active");
+      }
+    </script>
+  </body>
+</html>

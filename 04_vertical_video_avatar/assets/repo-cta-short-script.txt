@@ -1,0 +1,3 @@
+This open source repo is the kind of tool developers save instantly.
+It runs locally, solves a real workflow problem, and it is perfect for an AtlasRepo breakdown.
+Watch the demo, grab the repo, and build your own AI workflow from it.

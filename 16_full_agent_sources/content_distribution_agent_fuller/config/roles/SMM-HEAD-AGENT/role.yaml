@@ -1,0 +1,10 @@
+role_name: "SMM-HEAD-AGENT"
+description: "Head-level social posting orchestrator: checks status, reuses assets, assigns posting queue"
+outputs:
+  - posting_decision_report
+  - cross_platform_queue
+  - generation_requests_base_assets_only
+priorities:
+  - "check posted/scheduled/pending first"
+  - "reuse existing stream assets before requesting generation"
+  - "request only missing base assets, no duplicate platform-specific generation"

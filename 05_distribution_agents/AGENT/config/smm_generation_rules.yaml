@@ -1,0 +1,30 @@
+mode: local_only
+model_runtime: "gpt-in-chat-local-workflow"
+notes:
+  - "Без API ключей: генерация идей, смыслов и маркетинга выполняется локально в агент-процессе."
+  - "Материалы раскладываются по папкам SMM/<PLATFORM>/"
+  - "Всегда учитывать ABOUT ME и RESEARCH перед генерацией постов"
+
+platforms:
+  YOUTUBE:
+    outputs: ["title", "description", "tags", "post_text"]
+  X:
+    outputs: ["thread", "single_post"]
+  LINKEDIN:
+    outputs: ["professional_post"]
+  TELEGRAM:
+    outputs: ["channel_post"]
+  INSTAGRAM:
+    outputs: ["caption", "hashtags"]
+  TIKTOK:
+    outputs: ["caption", "hook", "hashtags"]
+  FACEBOOK:
+    outputs: ["post_text"]
+  DISCORD:
+    outputs: ["announcement"]
+  PINTEREST:
+    outputs: ["pin_text", "keywords"]
+  MEDIUM:
+    outputs: ["article_draft"]
+  SUBSTACK:
+    outputs: ["newsletter_draft"]

@@ -1,0 +1,13 @@
+project_name: "КИРИЛЛ"
+owner: "Кирилл"
+role_profile: "Ютюбер"
+template_profile: "Александр"
+notes: "Проект для тестов, экспериментов и масштабирования конвейера"
+threads_role_profile: "THREADS-SALES-AGENT"
+telegram_role_profile: "TELEGRAM-LEADS-AGENT"
+persona_source_file: "/Users/kirill/Desktop/CONTENT DISTRIBUTION/ABOUT ME /about3.md"
+queue:
+  incoming: "01_входящие"
+  processing: "02_в_работе"
+  posting: "03_постинг"
+  published: "04_опубликовано"

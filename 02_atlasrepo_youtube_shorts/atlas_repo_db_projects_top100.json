@@ -1,0 +1,1002 @@
+[
+  {
+    "title": "Significant-Gravitas/AutoGPT",
+    "url": "https://github.com/Significant-Gravitas/AutoGPT",
+    "stars": 183627,
+    "forks": 46214,
+    "topic": "AI/ML, Frontend, Backend",
+    "score": 100,
+    "desc": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "nodejs/node",
+    "url": "https://github.com/nodejs/node",
+    "stars": 116852,
+    "forks": 35406,
+    "topic": "Misc",
+    "score": 100,
+    "desc": "Node.js JavaScript runtime ✨🐢🚀✨",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "pytorch/pytorch",
+    "url": "https://github.com/pytorch/pytorch",
+    "stars": 99311,
+    "forks": 27544,
+    "topic": "Misc",
+    "score": 100,
+    "desc": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "vllm-project/vllm",
+    "url": "https://github.com/vllm-project/vllm",
+    "stars": 77536,
+    "forks": 15901,
+    "topic": "AI/ML",
+    "score": 100,
+    "desc": "A high-throughput and memory-efficient inference and serving engine for LLMs",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "grafana/grafana",
+    "url": "https://github.com/grafana/grafana",
+    "stars": 73333,
+    "forks": 13767,
+    "topic": "Data",
+    "score": 100,
+    "desc": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "firstcontributions/first-contributions",
+    "url": "https://github.com/firstcontributions/first-contributions",
+    "stars": 53578,
+    "forks": 101420,
+    "topic": "Misc",
+    "score": 100,
+    "desc": "🚀✨ Help beginners to contribute to open source projects",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "koala73/worldmonitor",
+    "url": "https://github.com/koala73/worldmonitor",
+    "stars": 50727,
+    "forks": 8195,
+    "topic": "AI/ML, DevOps/Infra",
+    "score": 100,
+    "desc": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "metabase/metabase",
+    "url": "https://github.com/metabase/metabase",
+    "stars": 46952,
+    "forks": 6389,
+    "topic": "Data",
+    "score": 100,
+    "desc": "The easy-to-use open source Business Intelligence and Embedded Analytics tool that lets everyone work with data :bar_chart:",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "getsentry/sentry",
+    "url": "https://github.com/getsentry/sentry",
+    "stars": 43634,
+    "forks": 4655,
+    "topic": "AI/ML, DevTools, Product",
+    "score": 100,
+    "desc": "Developer-first error tracking and performance monitoring",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "usebruno/bruno",
+    "url": "https://github.com/usebruno/bruno",
+    "stars": 43113,
+    "forks": 2325,
+    "topic": "Backend, DevTools",
+    "score": 100,
+    "desc": "Opensource IDE For Exploring and Testing API's (lightweight alternative to Postman/Insomnia)",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "juspay/hyperswitch",
+    "url": "https://github.com/juspay/hyperswitch",
+    "stars": 42502,
+    "forks": 4599,
+    "topic": "Frontend, Backend",
+    "score": 100,
+    "desc": "An open source payments switch written in Rust to make payments fast, reliable and affordable",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "drawdb-io/drawdb",
+    "url": "https://github.com/drawdb-io/drawdb",
+    "stars": 37086,
+    "forks": 2992,
+    "topic": "AI/ML, Frontend, Backend",
+    "score": 100,
+    "desc": "Free, simple, and intuitive online database diagram editor and SQL generator.",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "MHSanaei/3x-ui",
+    "url": "https://github.com/MHSanaei/3x-ui",
+    "stars": 34720,
+    "forks": 6436,
+    "topic": "AI/ML, Frontend",
+    "score": 100,
+    "desc": "Xray panel supporting multi-protocol multi-user expire day & traffic & IP limit (Vmess, Vless, Trojan, ShadowSocks, Wireguard, Tunnel, Mixed, HTTP, Tun) ",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "nextcloud/server",
+    "url": "https://github.com/nextcloud/server",
+    "stars": 34682,
+    "forks": 4834,
+    "topic": "Backend, Data, Design",
+    "score": 100,
+    "desc": "☁️ Nextcloud server, a safe home for all your data",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "PostHog/posthog",
+    "url": "https://github.com/PostHog/posthog",
+    "stars": 32684,
+    "forks": 2541,
+    "topic": "AI/ML, Frontend, DevTools",
+    "score": 100,
+    "desc": "🦔 PostHog is an all-in-one developer platform for building successful products. We offer product analytics, web analytics, session replay, error tracking, feature flags, experimentation, surveys, data warehouse, a CDP, and an AI product assistant to help debug your code, ship features faster, and keep all your usage and customer data in one stack.",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "chatwoot/chatwoot",
+    "url": "https://github.com/chatwoot/chatwoot",
+    "stars": 28664,
+    "forks": 6961,
+    "topic": "AI/ML, Frontend, DevOps/Infra",
+    "score": 100,
+    "desc": "Open-source live-chat, email support, omni-channel desk. An alternative to Intercom, Zendesk, Salesforce Service Cloud etc. 🔥💬",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "sgl-project/sglang",
+    "url": "https://github.com/sgl-project/sglang",
+    "stars": 26195,
+    "forks": 5477,
+    "topic": "AI/ML",
+    "score": 100,
+    "desc": "SGLang is a high-performance serving framework for large language models and multimodal models.",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "ente-io/ente",
+    "url": "https://github.com/ente-io/ente",
+    "stars": 26073,
+    "forks": 1549,
+    "topic": "Mobile, Security",
+    "score": 100,
+    "desc": "💚 End-to-end encrypted cloud for everything.",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "super-productivity/super-productivity",
+    "url": "https://github.com/super-productivity/super-productivity",
+    "stars": 18767,
+    "forks": 1623,
+    "topic": "Mobile, Product",
+    "score": 100,
+    "desc": "Super Productivity is an advanced todo list app with integrated Timeboxing and time tracking capabilities. It also comes with integrations for Jira, GitLab, GitHub and Open Project.",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "keploy/keploy",
+    "url": "https://github.com/keploy/keploy",
+    "stars": 17089,
+    "forks": 2219,
+    "topic": "AI/ML, Backend, DevTools",
+    "score": 100,
+    "desc": "Open-source platform for creating safe, isolated production sandboxes for API, integration, and E2E testing.",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "questdb/questdb",
+    "url": "https://github.com/questdb/questdb",
+    "stars": 16878,
+    "forks": 1565,
+    "topic": "Backend, Data",
+    "score": 100,
+    "desc": "QuestDB is a high performance, open-source, time-series database",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "zaproxy/zaproxy",
+    "url": "https://github.com/zaproxy/zaproxy",
+    "stars": 15014,
+    "forks": 2541,
+    "topic": "Security",
+    "score": 100,
+    "desc": "The ZAP by Checkmarx Core project",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "thanos-io/thanos",
+    "url": "https://github.com/thanos-io/thanos",
+    "stars": 14023,
+    "forks": 2286,
+    "topic": "AI/ML",
+    "score": 100,
+    "desc": "Highly available Prometheus setup with long term storage capabilities. A CNCF Incubating project.",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "MetaMask/metamask-extension",
+    "url": "https://github.com/MetaMask/metamask-extension",
+    "stars": 13107,
+    "forks": 5530,
+    "topic": "AI/ML, DevTools",
+    "score": 100,
+    "desc": ":globe_with_meridians: :electric_plug: The MetaMask browser extension enables browsing Ethereum blockchain enabled websites",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "Fincept-Corporation/FinceptTerminal",
+    "url": "https://github.com/Fincept-Corporation/FinceptTerminal",
+    "stars": 10832,
+    "forks": 1445,
+    "topic": "Data, Design",
+    "score": 100,
+    "desc": "FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools, designed for interactive exploration and data-driven decision-making in a user-friendly environment.",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "mui/mui-x",
+    "url": "https://github.com/mui/mui-x",
+    "stars": 5689,
+    "forks": 1765,
+    "topic": "Frontend, Data",
+    "score": 100,
+    "desc": "MUI X: Build complex and data-rich applications using a growing list of advanced React components, like the Data Grid, Date and Time Pickers, Charts, and more!",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "nextcloud/android",
+    "url": "https://github.com/nextcloud/android",
+    "stars": 5284,
+    "forks": 1947,
+    "topic": "Mobile",
+    "score": 100,
+    "desc": "📱 Nextcloud Android app",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "tailwindlabs/tailwindcss",
+    "url": "https://github.com/tailwindlabs/tailwindcss",
+    "stars": 94662,
+    "forks": 5203,
+    "topic": "AI/ML, Frontend, Backend",
+    "score": 99,
+    "desc": "A utility-first CSS framework for rapid UI development.",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "karakeep-app/karakeep",
+    "url": "https://github.com/karakeep-app/karakeep",
+    "stars": 24780,
+    "forks": 1152,
+    "topic": "AI/ML, Frontend, Mobile",
+    "score": 99,
+    "desc": "A self-hostable bookmark-everything app (links, notes and images) with AI-based automatic tagging and full text search",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "elastic/kibana",
+    "url": "https://github.com/elastic/kibana",
+    "stars": 21052,
+    "forks": 8565,
+    "topic": "Data",
+    "score": 99,
+    "desc": "Your window into all of your data",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "streetwriters/notesnook",
+    "url": "https://github.com/streetwriters/notesnook",
+    "stars": 13954,
+    "forks": 940,
+    "topic": "Frontend, Mobile, Product",
+    "score": 99,
+    "desc": "A fully open source & end-to-end encrypted note taking alternative to Evernote.",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "stamparm/maltrail",
+    "url": "https://github.com/stamparm/maltrail",
+    "stars": 8401,
+    "forks": 1255,
+    "topic": "AI/ML, Security",
+    "score": 99,
+    "desc": "Malicious traffic detection system",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "XRPLF/rippled",
+    "url": "https://github.com/XRPLF/rippled",
+    "stars": 5138,
+    "forks": 1629,
+    "topic": "AI/ML",
+    "score": 99,
+    "desc": "Decentralized cryptocurrency blockchain daemon implementing the XRP Ledger protocol in C++",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "brave/brave-browser",
+    "url": "https://github.com/brave/brave-browser",
+    "stars": 22284,
+    "forks": 3052,
+    "topic": "Mobile",
+    "score": 97,
+    "desc": "Brave browser for Android, iOS, Linux, macOS, Windows.",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "apache/pulsar",
+    "url": "https://github.com/apache/pulsar",
+    "stars": 15205,
+    "forks": 3721,
+    "topic": "Frontend",
+    "score": 97,
+    "desc": "Apache Pulsar - distributed pub-sub messaging system",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "microsoft/vscode",
+    "url": "https://github.com/microsoft/vscode",
+    "stars": 184080,
+    "forks": 39303,
+    "topic": "Misc",
+    "score": 96,
+    "desc": "Visual Studio Code",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "mozilla-mobile/firefox-ios",
+    "url": "https://github.com/mozilla-mobile/firefox-ios",
+    "stars": 12894,
+    "forks": 3186,
+    "topic": "Mobile",
+    "score": 96,
+    "desc": "Firefox for iOS",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "aws/aws-cdk",
+    "url": "https://github.com/aws/aws-cdk",
+    "stars": 12748,
+    "forks": 4460,
+    "topic": "DevOps/Infra",
+    "score": 96,
+    "desc": "The AWS Cloud Development Kit is a framework for defining cloud infrastructure in code",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "mapbox/mapbox-gl-js",
+    "url": "https://github.com/mapbox/mapbox-gl-js",
+    "stars": 12248,
+    "forks": 2346,
+    "topic": "Misc",
+    "score": 96,
+    "desc": "Interactive, thoroughly customizable maps in the browser, powered by vector tiles and WebGL",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "vespa-engine/vespa",
+    "url": "https://github.com/vespa-engine/vespa",
+    "stars": 6885,
+    "forks": 708,
+    "topic": "AI/ML, Backend, Data",
+    "score": 96,
+    "desc": "AI + Data, online. https://vespa.ai",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "libp2p/rust-libp2p",
+    "url": "https://github.com/libp2p/rust-libp2p",
+    "stars": 5479,
+    "forks": 1197,
+    "topic": "Misc",
+    "score": 96,
+    "desc": "The Rust Implementation of the libp2p networking stack. ",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "zed-industries/zed",
+    "url": "https://github.com/zed-industries/zed",
+    "stars": 79466,
+    "forks": 7922,
+    "topic": "Frontend",
+    "score": 95,
+    "desc": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "spring-projects/spring-ai",
+    "url": "https://github.com/spring-projects/spring-ai",
+    "stars": 8543,
+    "forks": 2487,
+    "topic": "AI/ML",
+    "score": 95,
+    "desc": "An Application Framework for AI Engineering",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "ProtonMail/WebClients",
+    "url": "https://github.com/ProtonMail/WebClients",
+    "stars": 5368,
+    "forks": 673,
+    "topic": "AI/ML, Frontend, DevTools",
+    "score": 95,
+    "desc": "Monorepo hosting the proton web clients",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "opnsense/core",
+    "url": "https://github.com/opnsense/core",
+    "stars": 4383,
+    "forks": 944,
+    "topic": "Frontend, Backend",
+    "score": 95,
+    "desc": "OPNsense GUI, API and systems backend",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "elastic/elasticsearch",
+    "url": "https://github.com/elastic/elasticsearch",
+    "stars": 76556,
+    "forks": 25850,
+    "topic": "Misc",
+    "score": 94,
+    "desc": "Free and Open Source, Distributed, RESTful Search Engine",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "keycloak/keycloak",
+    "url": "https://github.com/keycloak/keycloak",
+    "stars": 33991,
+    "forks": 8259,
+    "topic": "AI/ML",
+    "score": 94,
+    "desc": "Open Source Identity and Access Management For Modern Applications and Services",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "dotnet/runtime",
+    "url": "https://github.com/dotnet/runtime",
+    "stars": 17825,
+    "forks": 5414,
+    "topic": "Misc",
+    "score": 94,
+    "desc": ".NET is a cross-platform runtime for cloud, mobile, desktop, and IoT apps.",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "suitenumerique/docs",
+    "url": "https://github.com/suitenumerique/docs",
+    "stars": 16416,
+    "forks": 575,
+    "topic": "Frontend",
+    "score": 94,
+    "desc": "A collaborative note taking, wiki and documentation platform that scales. Built with Django and React. ",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "rerun-io/rerun",
+    "url": "https://github.com/rerun-io/rerun",
+    "stars": 10564,
+    "forks": 713,
+    "topic": "Data",
+    "score": 94,
+    "desc": "An open source SDK for logging, storing, querying, and visualizing multimodal and multi-rate data",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "longhorn/longhorn",
+    "url": "https://github.com/longhorn/longhorn",
+    "stars": 7654,
+    "forks": 694,
+    "topic": "AI/ML, Frontend, DevOps/Infra",
+    "score": 94,
+    "desc": "Cloud-Native distributed storage built on and for Kubernetes",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "ubicloud/ubicloud",
+    "url": "https://github.com/ubicloud/ubicloud",
+    "stars": 12015,
+    "forks": 559,
+    "topic": "AI/ML, DevOps/Infra",
+    "score": 93,
+    "desc": "Open source alternative to AWS. Elastic compute, block storage (non replicated), firewall and load balancer, managed Postgres, K8s, AI inference, and IAM services.",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "podman-desktop/podman-desktop",
+    "url": "https://github.com/podman-desktop/podman-desktop",
+    "stars": 7547,
+    "forks": 505,
+    "topic": "AI/ML, Frontend, DevTools",
+    "score": 93,
+    "desc": "Podman Desktop is the best free and open source tool to work with Containers and Kubernetes for developers. Get an intuitive and user-friendly interface to effortlessly build, manage, and deploy containers and Kubernetes — all from your desktop.",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "vllm-project/vllm-omni",
+    "url": "https://github.com/vllm-project/vllm-omni",
+    "stars": 4441,
+    "forks": 806,
+    "topic": "AI/ML",
+    "score": 93,
+    "desc": "A framework for efficient model inference with omni-modality models",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "dotnet/fsharp",
+    "url": "https://github.com/dotnet/fsharp",
+    "stars": 4282,
+    "forks": 856,
+    "topic": "DevTools",
+    "score": 93,
+    "desc": "The F# compiler, F# core library, F# language service, and F# tooling integration for Visual Studio",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "daytonaio/daytona",
+    "url": "https://github.com/daytonaio/daytona",
+    "stars": 72369,
+    "forks": 5549,
+    "topic": "developer-tools",
+    "score": 91,
+    "desc": "",
+    "source": "landing/backend/data/repo-catalog.json"
+  },
+  {
+    "title": "lightdash/lightdash",
+    "url": "https://github.com/lightdash/lightdash",
+    "stars": 5711,
+    "forks": 701,
+    "topic": "Data",
+    "score": 91,
+    "desc": "Self-serve BI to 10x your data team ⚡️",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "openclaw/skills",
+    "url": "https://github.com/openclaw/skills",
+    "stars": 4232,
+    "forks": 1165,
+    "topic": "Misc",
+    "score": 91,
+    "desc": "All versions of all skills that are on clawhub.com archived",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "llvm/llvm-project",
+    "url": "https://github.com/llvm/llvm-project",
+    "stars": 37967,
+    "forks": 16929,
+    "topic": "AI/ML",
+    "score": 90,
+    "desc": "The LLVM Project is a collection of modular and reusable compiler and toolchain technologies.",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "qgis/QGIS",
+    "url": "https://github.com/qgis/QGIS",
+    "stars": 13641,
+    "forks": 3404,
+    "topic": "Misc",
+    "score": 90,
+    "desc": "QGIS is a free, open source, cross platform (lin/win/mac) geographical information system (GIS)",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "errbit/errbit",
+    "url": "https://github.com/errbit/errbit",
+    "stars": 4272,
+    "forks": 990,
+    "topic": "AI/ML, Backend",
+    "score": 90,
+    "desc": "The open source error catcher that's Airbrake API compliant :ukraine:",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "DataDog/datadog-agent",
+    "url": "https://github.com/DataDog/datadog-agent",
+    "stars": 3571,
+    "forks": 1410,
+    "topic": "AI/ML, Data",
+    "score": 90,
+    "desc": "Main repository for Datadog Agent",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "osaurus-ai/osaurus",
+    "url": "https://github.com/osaurus-ai/osaurus",
+    "stars": 5078,
+    "forks": 253,
+    "topic": "AI/ML, Frontend, Backend",
+    "score": 89,
+    "desc": "Own your AI. The native macOS harness for AI agents -- any model, persistent memory, autonomous execution, cryptographic identity. Built in Swift. Fully offline. Open source.",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "camunda/camunda",
+    "url": "https://github.com/camunda/camunda",
+    "stars": 4085,
+    "forks": 761,
+    "topic": "Backend",
+    "score": 89,
+    "desc": "Process Orchestration Framework",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "corda/corda",
+    "url": "https://github.com/corda/corda",
+    "stars": 4069,
+    "forks": 1078,
+    "topic": "AI/ML, Frontend, Design",
+    "score": 88,
+    "desc": "Corda is an open source blockchain project, designed for business from the start. Only Corda allows you to build interoperable blockchain networks that transact in strict privacy. Corda's smart contract technology allows businesses to transact directly, with value.",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "unopim/unopim",
+    "url": "https://github.com/unopim/unopim",
+    "stars": 9634,
+    "forks": 133,
+    "topic": "Data, Product",
+    "score": 87,
+    "desc": "A free and open-source Laravel-based Product Information Management (PIM) system that helps businesses organize, manage, and enrich their product data from a single, central platform. Learn how UnoPIM scales to handle over 10 million products:  https://unopim.com/scaling-unopim-for-10-million-products/",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "CollaboraOnline/online",
+    "url": "https://github.com/CollaboraOnline/online",
+    "stars": 3173,
+    "forks": 1003,
+    "topic": "Frontend, Mobile, Product",
+    "score": 87,
+    "desc": "Collabora Online is a collaborative online office suite based on LibreOffice technology. This is also the source for the Collabora Office apps for iOS and Android. ",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "mauriceboe/TREK",
+    "url": "https://github.com/mauriceboe/TREK",
+    "stars": 4301,
+    "forks": 410,
+    "topic": "Misc",
+    "score": 86,
+    "desc": "A self-hosted travel/trip planner with real-time collaboration, interactive maps, PWA support, SSO, budgets, packing lists, and more.",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "openbao/openbao",
+    "url": "https://github.com/openbao/openbao",
+    "stars": 5869,
+    "forks": 403,
+    "topic": "Data, Security",
+    "score": 85,
+    "desc": "OpenBao is a software solution to manage, store, and distribute sensitive data including secrets, certificates, and keys.",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "generalaction/emdash",
+    "url": "https://github.com/generalaction/emdash",
+    "stars": 4032,
+    "forks": 364,
+    "topic": "AI/ML, DevTools, DevOps/Infra",
+    "score": 84,
+    "desc": "Emdash is the Open-Source Agentic Development Environment (🧡 YC W26). Run multiple coding agents in parallel. Use any provider.",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "easylist/easylist",
+    "url": "https://github.com/easylist/easylist",
+    "stars": 2959,
+    "forks": 864,
+    "topic": "Misc",
+    "score": 84,
+    "desc": "EasyList filter subscription (EasyList, EasyPrivacy, EasyList Cookie, Fanboy's Social/Annoyances/Notifications Blocking List)",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "linux-test-project/ltp",
+    "url": "https://github.com/linux-test-project/ltp",
+    "stars": 2544,
+    "forks": 1098,
+    "topic": "AI/ML, DevTools",
+    "score": 83,
+    "desc": "Linux Test Project (mailing list: https://lists.linux.it/listinfo/ltp)",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "Ed1s0nZ/CyberStrikeAI",
+    "url": "https://github.com/Ed1s0nZ/CyberStrikeAI",
+    "stars": 3404,
+    "forks": 571,
+    "topic": "AI/ML, Frontend, DevTools",
+    "score": 82,
+    "desc": "CyberStrikeAI is an AI-native security testing platform built in Go. It integrates 100+ security tools, an intelligent orchestration engine, role-based testing with predefined security roles, a skills system with specialized testing skills, and comprehensive lifecycle management capabilities.",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "facebook/sapling",
+    "url": "https://github.com/facebook/sapling",
+    "stars": 6815,
+    "forks": 364,
+    "topic": "Misc",
+    "score": 80,
+    "desc": "A Scalable, User-Friendly Source Control System.",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "open-telemetry/opentelemetry-python",
+    "url": "https://github.com/open-telemetry/opentelemetry-python",
+    "stars": 2406,
+    "forks": 861,
+    "topic": "Backend",
+    "score": 80,
+    "desc": "OpenTelemetry Python API and SDK ",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "lingdojo/kana-dojo",
+    "url": "https://github.com/lingdojo/kana-dojo",
+    "stars": 2117,
+    "forks": 1667,
+    "topic": "Frontend",
+    "score": 80,
+    "desc": "Aesthetic, minimalist platform for learning Japanese inspired by Duolingo and Monkeytype, built with Next.js and sponsored by Vercel. Beginner-friendly with plenty of good first issues - all contributions are welcome!",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "leanprover-community/mathlib4",
+    "url": "https://github.com/leanprover-community/mathlib4",
+    "stars": 3191,
+    "forks": 1246,
+    "topic": "Misc",
+    "score": 79,
+    "desc": "The math library of Lean 4",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "KHwang9883/MobileModels",
+    "url": "https://github.com/KHwang9883/MobileModels",
+    "stars": 4176,
+    "forks": 493,
+    "topic": "Misc",
+    "score": 77,
+    "desc": "手机品牌型号汇总 | Mobile Models | This repository is licensed under CC BY-NC-SA 4.0",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "mdn/translated-content",
+    "url": "https://github.com/mdn/translated-content",
+    "stars": 1978,
+    "forks": 8329,
+    "topic": "AI/ML",
+    "score": 76,
+    "desc": "7 community-maintained translations of MDN Web Docs in ES, FR, JA, KO, PT-BR, RU, and ZH, to learn and contribute in your native language.",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "qutip/qutip",
+    "url": "https://github.com/qutip/qutip",
+    "stars": 1999,
+    "forks": 755,
+    "topic": "Misc",
+    "score": 75,
+    "desc": "QuTiP: Quantum Toolbox in Python",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "NVIDIA/cccl",
+    "url": "https://github.com/NVIDIA/cccl",
+    "stars": 2287,
+    "forks": 379,
+    "topic": "Misc",
+    "score": 72,
+    "desc": "CUDA Core Compute Libraries",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "ScoopInstaller/Main",
+    "url": "https://github.com/ScoopInstaller/Main",
+    "stars": 1826,
+    "forks": 1145,
+    "topic": "AI/ML",
+    "score": 72,
+    "desc": "📦 The default bucket for Scoop.",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "xtdb/xtdb",
+    "url": "https://github.com/xtdb/xtdb",
+    "stars": 2964,
+    "forks": 186,
+    "topic": "Data",
+    "score": 71,
+    "desc": "An immutable SQL database for application development, time-travel reporting and data compliance. Developed by @juxt",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "ax-llm/ax",
+    "url": "https://github.com/ax-llm/ax",
+    "stars": 2590,
+    "forks": 163,
+    "topic": "AI/ML",
+    "score": 71,
+    "desc": "The pretty much \"official\" DSPy framework for Typescript",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "CircuitVerse/CircuitVerse",
+    "url": "https://github.com/CircuitVerse/CircuitVerse",
+    "stars": 1197,
+    "forks": 2015,
+    "topic": "Frontend, Design",
+    "score": 70,
+    "desc": "CircuitVerse Primary Code Base",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "24pullrequests/24pullrequests",
+    "url": "https://github.com/24pullrequests/24pullrequests",
+    "stars": 1705,
+    "forks": 533,
+    "topic": "AI/ML",
+    "score": 69,
+    "desc": ":christmas_tree: Giving back to open source for the holidays",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "mozilla/pontoon",
+    "url": "https://github.com/mozilla/pontoon",
+    "stars": 1630,
+    "forks": 593,
+    "topic": "Design",
+    "score": 69,
+    "desc": "Mozilla's Localization Platform",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "coderaiser/cloudcmd",
+    "url": "https://github.com/coderaiser/cloudcmd",
+    "stars": 2006,
+    "forks": 263,
+    "topic": "AI/ML, Mobile, DevOps/Infra",
+    "score": 68,
+    "desc": "✨☁️📁✨ Cloud Commander file manager for the web with console and editor.",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "getsentry/sentry-react-native",
+    "url": "https://github.com/getsentry/sentry-react-native",
+    "stars": 1791,
+    "forks": 360,
+    "topic": "Frontend, Mobile, Product",
+    "score": 68,
+    "desc": "Official Sentry SDK for React Native",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "zaproxy/zap-extensions",
+    "url": "https://github.com/zaproxy/zap-extensions",
+    "stars": 923,
+    "forks": 780,
+    "topic": "AI/ML, Security",
+    "score": 68,
+    "desc": "ZAP Add-ons",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "privacyidea/privacyidea",
+    "url": "https://github.com/privacyidea/privacyidea",
+    "stars": 1716,
+    "forks": 350,
+    "topic": "Backend, Security",
+    "score": 67,
+    "desc": ":closed_lock_with_key: multi factor authentication system (2FA, MFA, OTP, FIDO Server)",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "n8n-io/n8n",
+    "url": "https://github.com/n8n-io/n8n",
+    "stars": 184919,
+    "forks": 56988,
+    "topic": "automation",
+    "score": 66,
+    "desc": "",
+    "source": "landing/backend/data/repo-catalog.json"
+  },
+  {
+    "title": "MCPJam/inspector",
+    "url": "https://github.com/MCPJam/inspector",
+    "stars": 1867,
+    "forks": 216,
+    "topic": "AI/ML, Backend, DevTools",
+    "score": 66,
+    "desc": "Development platform to debug, chat, inspect, and evaluate MCP servers, MCP apps, and ChatGPT apps.",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "matrix-org/matrix-rust-sdk",
+    "url": "https://github.com/matrix-org/matrix-rust-sdk",
+    "stars": 2080,
+    "forks": 416,
+    "topic": "Backend, DevTools",
+    "score": 65,
+    "desc": "Matrix Client-Server SDK for Rust",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "LinwoodDev/Butterfly",
+    "url": "https://github.com/LinwoodDev/Butterfly",
+    "stars": 1820,
+    "forks": 136,
+    "topic": "Mobile, Product",
+    "score": 65,
+    "desc": "🎨 Powerful, minimalistic, cross-platform, opensource note-taking app",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "ebean-orm/ebean",
+    "url": "https://github.com/ebean-orm/ebean",
+    "stars": 1521,
+    "forks": 265,
+    "topic": "Backend, Data",
+    "score": 65,
+    "desc": "Ebean ORM",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "MetaMask/eth-phishing-detect",
+    "url": "https://github.com/MetaMask/eth-phishing-detect",
+    "stars": 1272,
+    "forks": 1063,
+    "topic": "AI/ML",
+    "score": 64,
+    "desc": "Utility for detecting phishing domains targeting Web3 users",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "rustmailer/bichon",
+    "url": "https://github.com/rustmailer/bichon",
+    "stars": 1578,
+    "forks": 52,
+    "topic": "AI/ML, Frontend, Backend",
+    "score": 62,
+    "desc": "Bichon – A lightweight, high-performance Rust email archiver with WebUI",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "grafana/beyla",
+    "url": "https://github.com/grafana/beyla",
+    "stars": 1969,
+    "forks": 172,
+    "topic": "Misc",
+    "score": 61,
+    "desc": "eBPF-based autoinstrumentation of web applications and network metrics",
+    "source": "data/repos/index.jsonl"
+  },
+  {
+    "title": "aelassas/servy",
+    "url": "https://github.com/aelassas/servy",
+    "stars": 1642,
+    "forks": 64,
+    "topic": "Misc",
+    "score": 61,
+    "desc": "Run Any App as a Native Windows Service - Modern Alternative to NSSM, WinSW & FireDaemon Pro",
+    "source": "data/repos/index.jsonl"
+  }
+]

@@ -1,0 +1,110 @@
+app:
+  project_name: shorts-mvp
+  output_dir: ../output
+  temp_dir: ../tmp
+  max_clips: 18
+  min_clip_seconds: 20
+  max_clip_seconds: 50
+  max_candidates: 120
+  telegram_bot_token: "8765874084:AAEBo3QMJOWsLq4354FfoHwOzm-h1m6UcAY"
+
+transcription:
+  mode: faster_whisper_with_fallback
+  cache_enabled: true
+  language: ru
+  model_size: small
+  device: auto
+  compute_type: int8
+  beam_size: 3
+  vad_filter: true
+  fallback_srt_path: null
+
+highlight:
+  use_llm_rerank: false
+  keyword_boost:
+    - "секрет"
+    - "ошибка"
+    - "важно"
+    - "совет"
+    - "результат"
+  intro_penalty_phrases:
+    - "в этом видео"
+    - "подпишись"
+    - "ставь лайк"
+    - "всем привет"
+
+render:
+  target_width: 1080
+  target_height: 1920
+  video_codec: libx264
+  audio_codec: aac
+  crf: 20
+  blur_sigma: 25
+  subtitle_font_name: Arial
+  subtitle_font_size: 123
+  subtitle_outline: 5
+  subtitle_shadow: 1
+  subtitle_margin_v: 240
+  subtitle_max_lines: 1
+  subtitle_max_chars_per_line: 22
+  subtitle_max_words_per_line: 2
+  subtitle_footer_enabled: false
+  subtitle_footer_text: "Название фильма в описании"
+  subtitle_footer_font_scale: 0.9
+  subtitle_footer_bottom_margin: 92
+  preset: medium
+  loudnorm: true
+  loudnorm_target_lufs: -13
+  smart_crop_enabled: true
+  smart_crop_sample_seconds: 1.8
+  smart_crop_max_samples: 20
+  reframe_mode: auto
+  auto_crop_min_keep_ratio: 0.42
+  background_music_path: null
+  background_music_volume: 0.12
+  promo_enabled: true
+  promo_overlay_image_path: "../assets/generated/vpn_banner_overlay.png"
+  promo_text: "Лучший VPN"
+  promo_title_line2: "для ТВОЕГО устройства"
+  promo_title_highlight_word: "ТВОЕГО"
+  promo_subtext: ""
+  promo_cta_enabled: true
+  promo_cta_primary: "Использовать"
+  promo_cta_secondary: "@lids_up_bot"
+  promo_start_seconds: 0.0
+  promo_anim_seconds: 0.0
+  promo_duration_seconds: 0.0
+  promo_top_margin: 200
+  promo_height: 280
+  promo_icon_path: null
+  promo_icon_size: 72
+
+automation:
+  queue_root: "/Users/kirill/Desktop/ФИЛЬМЫ"
+  categories:
+    - "ЮМОР"
+    - "КОРЕЯ"
+    - "ИНТЕЛЛЕКТ"
+    - "СТАРОЕ КИНО"
+    - "untitled folder"
+  autopilot_interval_seconds: 300
+
+intake:
+  obs_dir: ../OBS
+  work_dir: ../WORK
+  whisper_model: medium
+  device: auto
+  compute_type: int8
+  language: ru
+  timecode_interval_seconds: 300
+  stream_threshold_seconds: 1800
+  short_video_threshold_seconds: 300
+  about_me_dir: "../ABOUT ME "
+  research_dir: ../RESEARCH
+  smart_moments_enabled: true
+  smart_moments_model: gpt-5
+  smart_moments_local_only: true
+  smart_shorts_count: 3
+  smart_short_target_seconds: 55
+  smart_fragment_min_seconds: 6
+  smart_fragment_max_seconds: 22

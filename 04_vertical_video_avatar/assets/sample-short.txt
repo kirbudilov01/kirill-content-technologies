@@ -1,0 +1,10 @@
+This AI agent can control your computer.
+
+That sounds like a demo trick, but it changes the workflow.
+
+Instead of only chatting with a model, you can give an agent a goal, let it open tools, inspect pages, click buttons, collect information, and prepare the next action.
+
+The important part is not the agent alone. The important part is the workflow around it.
+
+AtlasRepo tracks tools like this and turns them into practical AI workflow packs.
+

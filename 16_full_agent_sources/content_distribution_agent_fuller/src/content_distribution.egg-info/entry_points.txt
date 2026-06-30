@@ -1,0 +1,2 @@
+[console_scripts]
+content-distribution = content_distribution.cli:app

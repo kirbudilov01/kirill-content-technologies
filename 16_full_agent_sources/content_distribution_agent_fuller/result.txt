@@ -1,0 +1,10 @@
+2026-05-19 11:38:52,624 [INFO] ============================================================
+2026-05-19 11:38:52,624 [INFO]  AUTONOMOUS CONTENT SCHEDULER
+2026-05-19 11:38:52,624 [INFO] ============================================================
+2026-05-19 11:38:52,624 [INFO] 🔧 Setting up automation...
+
+2026-05-19 11:38:52,626 [ERROR] Failed to initialize Postiz: No module named 'requests'
+2026-05-19 11:38:52,626 [INFO] ✅ Added 3 initial content items
+
+2026-05-19 11:38:52,626 [INFO] ✅ Automation setup complete!
+2026-05-19 11:38:52,626 [INFO]    Next: Run with --mode=continuous to start publishing

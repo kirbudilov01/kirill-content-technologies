@@ -1,0 +1,17 @@
+============================================================
+POSTIZ TEST v2 - Updated endpoint fallback
+============================================================
+
+✅ Imported PostizPublisher
+
+API Key loaded: True
+
+✅ Publisher initialized
+
+✅ Config created
+
+Testing publish...
+
+❌ FAILED: RequestException: Failed to publish to any Postiz endpoint. Tried: /posts, /api/posts, /api/v1/posts. Last error: 404 from https://api.postiz.com/api/v1/posts
+
+============================================================

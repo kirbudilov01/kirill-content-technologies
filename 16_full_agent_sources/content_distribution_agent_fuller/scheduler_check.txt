@@ -1,0 +1,1 @@
+kirill           18774   0.0  0.1 411481168  11104 s016  SN   11:40AM   0:00.74 /opt/homebrew/Cellar/python@3.14/3.14.3_1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python scheduler.py --mode=continuous --interval=15

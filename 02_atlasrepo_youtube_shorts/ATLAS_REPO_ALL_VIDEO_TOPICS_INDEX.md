@@ -1,0 +1,156 @@
+# AtlasRepo — итоговый индекс тем для Shorts и Long-form
+
+Этот файл — навигация по актуальным темам. Для съемки Shorts использовать V4, для Long-form пока использовать idea board + фреймы, а не старые полные сценарии как финал.
+
+## Главные рабочие файлы
+
+- Shorts сценарии: `ATLAS_REPO_SHORTS_V4_SIMPLE_READABLE.md`
+- Shorts задачи партнеру: `ATLAS_REPO_SHORTS_V4_PARTNER_SCREENCAST_TASKS.md`
+- Shorts таблица: `ATLAS_REPO_SHORTS_V4_SIMPLE_READABLE.xlsx`
+- Long-form доска тем: `longform/LONGFORM_IDEA_BOARD.md`
+- Long-form фреймы конкурентов: `longform/CONTENT_FRAMEWORKS.md`
+- Шаблон разбора конкурента: `longform/COMPETITOR_REFERENCE_TEMPLATE.md`
+
+## Long-form: первые темы для проработки
+
+- 1. Hermes vs OpenClaw: где быстрее собрать полезного AI-ассистента?
+- 2. Claude agents убьют n8n или это кликбейт?
+- 3. Я проверил 100 AI repo, вот 10, которые реально стоит открыть
+- 4. Cursor + MCP + rules: как не превратить AI coding в хаос
+- 5. Stop paying for AI SaaS: open-source alternatives that actually work
+
+## Long-form: расширенный список 30 тем из ресерча
+
+- 1. From Zero to Your First OpenClaw Agent in 25 Minutes
+- 2. Hermes Agent vs OpenClaw: I Built the Same Assistant in Both
+- 3. Claude Managed Agents Just Dropped… Does It Kill n8n?
+- 4. I Tried 100+ Claude Code Skills. These 7 Are Actually Useful
+- 5. The Karpathy CLAUDE.md File vs AGENTS.md: Which Makes AI Code Better?
+- 6. Cursor AI Full Guide: Rules, MCP, OpenClaw Skills, and Repo Context
+- 7. MCP Servers in Claude/Cursor: Full Guide for 10x Agent Power
+- 8. I Built an AI Content Factory with Claude + n8n + Atlas Repo
+- 9. Clone Any YouTube Channel with AI, But Using Open-Source Tools
+- 10. I Tested 500 AI Tools. These 10 Open-Source Repos Are Worth Your Time
+- 11. OpenAI vs Claude vs Gemini vs Qwen: Who Writes Code Better?
+- 12. Claude Code Full Course: Build & Sell a Micro-SaaS with Open-Source Repos
+- 13. AI Startup in 38 Hours: Idea → MVP → Release with Claude Code
+- 14. Stop Making Ugly Websites with Claude Code: Open-Source UI Skills Test
+- 15. Claude Code Got Leaked: What Developers Can Learn from the Source-Code Drama
+- 16. OpenClaw + MiniMax Agent: Personal Assistant with Gmail, Calendar and 200 Tools
+- 17. Hermes Agent Tutorial: Self-Improving AI Assistant or Hype?
+- 18. Don’t Build AI Automations, Build Agentic Workflows
+- 19. OpenAI Agent Builder vs Dify vs n8n: Which One Should You Use?
+- 20. I Turned Claude Into a 24/7 Trader: Testing OpenClaw Autotrader Safely
+- 21. NotebookLM + Claude Skills = Research Agent That Writes Scripts for You
+- 22. OpenAI Made Your Tech Stack Obsolete… or Did It?
+- 23. AWS Released a Cursor Killer. I Tested It Against Open-Source AI IDEs
+- 24. 7 New Open-Source AI Tools You Need Right Now
+- 25. The Only AI Tools You Need: 12-Minute Open-Source Stack
+- 26. AI Agents Are Either the Best or Worst Thing We’ve Built: Open-Source Proof
+- 27. Zero-Click Attacks: Why AI Agents Are the Next Security Nightmare
+- 28. RAG Is Still Needed? Testing RAGFlow, Airweave and NotebookLM-Style Tools
+- 29. GitHub Is Having Major Issues: Is AI-Generated Code Breaking Open Source?
+- 30. I Rebuilt a $12M AI App in 20 Minutes with Open-Source Repos
+
+## Shorts V4: 100 тем
+
+- 1. День 1, слот 1: AI-инструменты выходят каждый день. Как не утонуть? — `AtlasRepo feed`
+- 2. День 1, слот 2: Бесплатная альтернатива дорогому SaaS: где искать? — `AtlasRepo + GitHub`
+- 3. День 1, слот 3: AI пишет код быстро, но часто не туда — `AGENTS.md / CLAUDE.md`
+- 4. День 2, слот 1: Cursor без rules — это быстрый хаос — `Cursor rules`
+- 5. День 2, слот 2: Что такое MCP человеческим языком — `Playwright MCP`
+- 6. День 2, слот 3: AI может открыть сайт и проверить кнопку — `Playwright MCP / browser agents`
+- 7. День 3, слот 1: n8n не умер, но агенты подбираются близко — `n8n + Claude/agents`
+- 8. День 3, слот 2: Open-source инструмент, который выглядит как платный продукт — `AtlasRepo selected tool`
+- 9. День 3, слот 3: GitHub stars врут — `GitHub + AtlasRepo scoring`
+- 10. День 4, слот 1: Как я выбираю AI-инструмент за 30 секунд — `AtlasRepo method`
+- 11. День 4, слот 2: AI skills — это не магия, а заготовки для работы — `OpenClaw / Claude skills`
+- 12. День 4, слот 3: Большинство AI skills бесполезны. Вот мой фильтр — `Claude/OpenClaw skills`
+- 13. День 5, слот 1: Hermes против OpenClaw без nerd-режима — `Hermes Agent + OpenClaw`
+- 14. День 5, слот 2: AI-агент не должен быть умным. Он должен доводить дело — `Any agent from AtlasRepo`
+- 15. День 5, слот 3: AI-агенты опаснее обычного софта — `agent safety checklist`
+- 16. День 6, слот 1: Самый простой тест для любого AI repo — `AtlasRepo review format`
+- 17. День 6, слот 2: AI для маркетинга: не генератор постов, а сборочная линия — `n8n + AtlasRepo content workflow`
+- 18. День 6, слот 3: Контент-идеи из GitHub, а не из воздуха — `AtlasRepo`
+- 19. День 7, слот 1: Как из одного repo сделать 5 роликов — `AtlasRepo content method`
+- 20. День 7, слот 2: AI coding для обычного человека — `Cursor/Claude/Codex-style workflow`
+- 21. День 7, слот 3: AI-инструменты выходят каждый день. Как не утонуть? — `AtlasRepo feed`
+- 22. День 8, слот 1: Бесплатная альтернатива дорогому SaaS: где искать? — `AtlasRepo + GitHub`
+- 23. День 8, слот 2: AI пишет код быстро, но часто не туда — `AGENTS.md / CLAUDE.md`
+- 24. День 8, слот 3: Cursor без rules — это быстрый хаос — `Cursor rules`
+- 25. День 9, слот 1: Что такое MCP человеческим языком — `Playwright MCP`
+- 26. День 9, слот 2: AI может открыть сайт и проверить кнопку — `Playwright MCP / browser agents`
+- 27. День 9, слот 3: n8n не умер, но агенты подбираются близко — `n8n + Claude/agents`
+- 28. День 10, слот 1: Open-source инструмент, который выглядит как платный продукт — `AtlasRepo selected tool`
+- 29. День 10, слот 2: GitHub stars врут — `GitHub + AtlasRepo scoring`
+- 30. День 10, слот 3: Как я выбираю AI-инструмент за 30 секунд — `AtlasRepo method`
+- 31. День 11, слот 1: AI skills — это не магия, а заготовки для работы — `OpenClaw / Claude skills`
+- 32. День 11, слот 2: Большинство AI skills бесполезны. Вот мой фильтр — `Claude/OpenClaw skills`
+- 33. День 11, слот 3: Hermes против OpenClaw без nerd-режима — `Hermes Agent + OpenClaw`
+- 34. День 12, слот 1: AI-агент не должен быть умным. Он должен доводить дело — `Any agent from AtlasRepo`
+- 35. День 12, слот 2: AI-агенты опаснее обычного софта — `agent safety checklist`
+- 36. День 12, слот 3: Самый простой тест для любого AI repo — `AtlasRepo review format`
+- 37. День 13, слот 1: AI для маркетинга: не генератор постов, а сборочная линия — `n8n + AtlasRepo content workflow`
+- 38. День 13, слот 2: Контент-идеи из GitHub, а не из воздуха — `AtlasRepo`
+- 39. День 13, слот 3: Как из одного repo сделать 5 роликов — `AtlasRepo content method`
+- 40. День 14, слот 1: AI coding для обычного человека — `Cursor/Claude/Codex-style workflow`
+- 41. День 14, слот 2: AI-инструменты выходят каждый день. Как не утонуть? — `AtlasRepo feed`
+- 42. День 14, слот 3: Бесплатная альтернатива дорогому SaaS: где искать? — `AtlasRepo + GitHub`
+- 43. День 15, слот 1: AI пишет код быстро, но часто не туда — `AGENTS.md / CLAUDE.md`
+- 44. День 15, слот 2: Cursor без rules — это быстрый хаос — `Cursor rules`
+- 45. День 15, слот 3: Что такое MCP человеческим языком — `Playwright MCP`
+- 46. День 16, слот 1: AI может открыть сайт и проверить кнопку — `Playwright MCP / browser agents`
+- 47. День 16, слот 2: n8n не умер, но агенты подбираются близко — `n8n + Claude/agents`
+- 48. День 16, слот 3: Open-source инструмент, который выглядит как платный продукт — `AtlasRepo selected tool`
+- 49. День 17, слот 1: GitHub stars врут — `GitHub + AtlasRepo scoring`
+- 50. День 17, слот 2: Как я выбираю AI-инструмент за 30 секунд — `AtlasRepo method`
+- 51. День 17, слот 3: AI skills — это не магия, а заготовки для работы — `OpenClaw / Claude skills`
+- 52. День 18, слот 1: Большинство AI skills бесполезны. Вот мой фильтр — `Claude/OpenClaw skills`
+- 53. День 18, слот 2: Hermes против OpenClaw без nerd-режима — `Hermes Agent + OpenClaw`
+- 54. День 18, слот 3: AI-агент не должен быть умным. Он должен доводить дело — `Any agent from AtlasRepo`
+- 55. День 19, слот 1: AI-агенты опаснее обычного софта — `agent safety checklist`
+- 56. День 19, слот 2: Самый простой тест для любого AI repo — `AtlasRepo review format`
+- 57. День 19, слот 3: AI для маркетинга: не генератор постов, а сборочная линия — `n8n + AtlasRepo content workflow`
+- 58. День 20, слот 1: Контент-идеи из GitHub, а не из воздуха — `AtlasRepo`
+- 59. День 20, слот 2: Как из одного repo сделать 5 роликов — `AtlasRepo content method`
+- 60. День 20, слот 3: AI coding для обычного человека — `Cursor/Claude/Codex-style workflow`
+- 61. День 21, слот 1: AI-инструменты выходят каждый день. Как не утонуть? — `AtlasRepo feed`
+- 62. День 21, слот 2: Бесплатная альтернатива дорогому SaaS: где искать? — `AtlasRepo + GitHub`
+- 63. День 21, слот 3: AI пишет код быстро, но часто не туда — `AGENTS.md / CLAUDE.md`
+- 64. День 22, слот 1: Cursor без rules — это быстрый хаос — `Cursor rules`
+- 65. День 22, слот 2: Что такое MCP человеческим языком — `Playwright MCP`
+- 66. День 22, слот 3: AI может открыть сайт и проверить кнопку — `Playwright MCP / browser agents`
+- 67. День 23, слот 1: n8n не умер, но агенты подбираются близко — `n8n + Claude/agents`
+- 68. День 23, слот 2: Open-source инструмент, который выглядит как платный продукт — `AtlasRepo selected tool`
+- 69. День 23, слот 3: GitHub stars врут — `GitHub + AtlasRepo scoring`
+- 70. День 24, слот 1: Как я выбираю AI-инструмент за 30 секунд — `AtlasRepo method`
+- 71. День 24, слот 2: AI skills — это не магия, а заготовки для работы — `OpenClaw / Claude skills`
+- 72. День 24, слот 3: Большинство AI skills бесполезны. Вот мой фильтр — `Claude/OpenClaw skills`
+- 73. День 25, слот 1: Hermes против OpenClaw без nerd-режима — `Hermes Agent + OpenClaw`
+- 74. День 25, слот 2: AI-агент не должен быть умным. Он должен доводить дело — `Any agent from AtlasRepo`
+- 75. День 25, слот 3: AI-агенты опаснее обычного софта — `agent safety checklist`
+- 76. День 26, слот 1: Самый простой тест для любого AI repo — `AtlasRepo review format`
+- 77. День 26, слот 2: AI для маркетинга: не генератор постов, а сборочная линия — `n8n + AtlasRepo content workflow`
+- 78. День 26, слот 3: Контент-идеи из GitHub, а не из воздуха — `AtlasRepo`
+- 79. День 27, слот 1: Как из одного repo сделать 5 роликов — `AtlasRepo content method`
+- 80. День 27, слот 2: AI coding для обычного человека — `Cursor/Claude/Codex-style workflow`
+- 81. День 27, слот 3: AI-инструменты выходят каждый день. Как не утонуть? — `AtlasRepo feed`
+- 82. День 28, слот 1: Бесплатная альтернатива дорогому SaaS: где искать? — `AtlasRepo + GitHub`
+- 83. День 28, слот 2: AI пишет код быстро, но часто не туда — `AGENTS.md / CLAUDE.md`
+- 84. День 28, слот 3: Cursor без rules — это быстрый хаос — `Cursor rules`
+- 85. День 29, слот 1: Что такое MCP человеческим языком — `Playwright MCP`
+- 86. День 29, слот 2: AI может открыть сайт и проверить кнопку — `Playwright MCP / browser agents`
+- 87. День 29, слот 3: n8n не умер, но агенты подбираются близко — `n8n + Claude/agents`
+- 88. День 30, слот 1: Open-source инструмент, который выглядит как платный продукт — `AtlasRepo selected tool`
+- 89. День 30, слот 2: GitHub stars врут — `GitHub + AtlasRepo scoring`
+- 90. День 30, слот 3: Как я выбираю AI-инструмент за 30 секунд — `AtlasRepo method`
+- 91. День 31, слот 1: AI skills — это не магия, а заготовки для работы — `OpenClaw / Claude skills`
+- 92. День 31, слот 2: Большинство AI skills бесполезны. Вот мой фильтр — `Claude/OpenClaw skills`
+- 93. День 31, слот 3: Hermes против OpenClaw без nerd-режима — `Hermes Agent + OpenClaw`
+- 94. День 32, слот 1: AI-агент не должен быть умным. Он должен доводить дело — `Any agent from AtlasRepo`
+- 95. День 32, слот 2: AI-агенты опаснее обычного софта — `agent safety checklist`
+- 96. День 32, слот 3: Самый простой тест для любого AI repo — `AtlasRepo review format`
+- 97. День 33, слот 1: AI для маркетинга: не генератор постов, а сборочная линия — `n8n + AtlasRepo content workflow`
+- 98. День 33, слот 2: Контент-идеи из GitHub, а не из воздуха — `AtlasRepo`
+- 99. День 33, слот 3: Как из одного repo сделать 5 роликов — `AtlasRepo content method`
+- 100. День 34, слот 1: AI coding для обычного человека — `Cursor/Claude/Codex-style workflow`

@@ -1,0 +1,579 @@
+[
+  {
+    "id": "claude_leak",
+    "title": "Tragic mistake... Anthropic leaks Claude’s source code",
+    "channel": "Fireship",
+    "duration": 442,
+    "view_count": 3222220,
+    "chapters": [],
+    "chapter_count": 0,
+    "caption_available": true,
+    "caption_words": 2978,
+    "first_minute_words": 340,
+    "avg_words_per_minute": 404.3,
+    "first_minute_cue_count": 57,
+    "chapter_titles": []
+  },
+  {
+    "id": "claude_skills_test",
+    "title": "I Tried 100+ Claude Code Skills. These 6 Are The Best",
+    "channel": "Nate Herk | AI Automation",
+    "duration": 819,
+    "view_count": 347628,
+    "chapters": [
+      {
+        "start_time": 0.0,
+        "title": "Intro",
+        "end_time": 42.0
+      },
+      {
+        "start_time": 42.0,
+        "title": "Skill #1",
+        "end_time": 177.0
+      },
+      {
+        "start_time": 177.0,
+        "title": "Skill #2",
+        "end_time": 277.0
+      },
+      {
+        "start_time": 277.0,
+        "title": "Skill #3",
+        "end_time": 377.0
+      },
+      {
+        "start_time": 377.0,
+        "title": "Skill #4",
+        "end_time": 486.0
+      },
+      {
+        "start_time": 486.0,
+        "title": "Skill #5",
+        "end_time": 584.0
+      },
+      {
+        "start_time": 584.0,
+        "title": "Skill #6",
+        "end_time": 712.0
+      },
+      {
+        "start_time": 712.0,
+        "title": "Bonus",
+        "end_time": 745.0
+      },
+      {
+        "start_time": 745.0,
+        "title": "How to Sell These Skills",
+        "end_time": 819
+      }
+    ],
+    "chapter_count": 9,
+    "caption_available": true,
+    "caption_words": 6795,
+    "first_minute_words": 539,
+    "avg_words_per_minute": 497.8,
+    "first_minute_cue_count": 79,
+    "chapter_titles": [
+      "Intro",
+      "Skill #1",
+      "Skill #2",
+      "Skill #3",
+      "Skill #4",
+      "Skill #5",
+      "Skill #6",
+      "Bonus",
+      "How to Sell These Skills"
+    ]
+  },
+  {
+    "id": "cursor_full_guide",
+    "title": "Cursor AI: полный гайд по вайб-кодингу (настройки, фишки, rules, MCP)",
+    "channel": "Олег Стефанов",
+    "duration": 1626,
+    "view_count": 352585,
+    "chapters": [
+      {
+        "start_time": 0.0,
+        "title": "Start",
+        "end_time": 62.0
+      },
+      {
+        "start_time": 62.0,
+        "title": "What problem does Cursor solve?",
+        "end_time": 96.0
+      },
+      {
+        "start_time": 96.0,
+        "title": "What is Cursor?",
+        "end_time": 160.0
+      },
+      {
+        "start_time": 160.0,
+        "title": "Basic settings. Auto-run",
+        "end_time": 227.0
+      },
+      {
+        "start_time": 227.0,
+        "title": "MCP in Cursor",
+        "end_time": 347.0
+      },
+      {
+        "start_time": 347.0,
+        "title": "Rules",
+        "end_time": 418.0
+      },
+      {
+        "start_time": 418.0,
+        "title": "Project rules",
+        "end_time": 498.0
+      },
+      {
+        "start_time": 498.0,
+        "title": "Context",
+        "end_time": 534.0
+      },
+      {
+        "start_time": 534.0,
+        "title": "Break tasks into steps",
+        "end_time": 638.0
+      },
+      {
+        "start_time": 638.0,
+        "title": "Create a new chat",
+        "end_time": 763.0
+      },
+      {
+        "start_time": 763.0,
+        "title": "Attach files to Context",
+        "end_time": 878.0
+      },
+      {
+        "start_time": 878.0,
+        "title": "Save in SQLite",
+        "end_time": 987.0
+      },
+      {
+        "start_time": 987.0,
+        "title": "Send to a Telegram channel",
+        "end_time": 1031.0
+      },
+      {
+        "start_time": 1031.0,
+        "title": "Context7 MCP",
+        "end_time": 1062.0
+      },
+      {
+        "start_time": 1062.0,
+        "title": "Git",
+        "end_time": 1257.0
+      },
+      {
+        "start_time": 1257.0,
+        "title": "Project rules + context files",
+        "end_time": 1301.0
+      },
+      {
+        "start_time": 1301.0,
+        "title": "Which model should I use?",
+        "end_time": 1324.0
+      },
+      {
+        "start_time": 1324.0,
+        "title": "What is MAX mode?",
+        "end_time": 1343.0
+      },
+      {
+        "start_time": 1343.0,
+        "title": "Is a subscription worth it?",
+        "end_time": 1390.0
+      },
+      {
+        "start_time": 1390.0,
+        "title": "Cursor Alternatives",
+        "end_time": 1458.0
+      },
+      {
+        "start_time": 1458.0,
+        "title": "Best MCPs",
+        "end_time": 1514.0
+      },
+      {
+        "start_time": 1514.0,
+        "title": "What languages ​​does Cursor work with?",
+        "end_time": 1529.0
+      },
+      {
+        "start_time": 1529.0,
+        "title": "How to use Cursor safely?",
+        "end_time": 1549.0
+      },
+      {
+        "start_time": 1549.0,
+        "title": "Errors",
+        "end_time": 1577.0
+      },
+      {
+        "start_time": 1577.0,
+        "title": "Results",
+        "end_time": 1626
+      }
+    ],
+    "chapter_count": 25,
+    "caption_available": false,
+    "caption_words": 0,
+    "first_minute_words": 0,
+    "avg_words_per_minute": 0.0,
+    "first_minute_cue_count": 0,
+    "chapter_titles": [
+      "Start",
+      "What problem does Cursor solve?",
+      "What is Cursor?",
+      "Basic settings. Auto-run",
+      "MCP in Cursor",
+      "Rules",
+      "Project rules",
+      "Context",
+      "Break tasks into steps",
+      "Create a new chat",
+      "Attach files to Context",
+      "Save in SQLite"
+    ]
+  },
+  {
+    "id": "from_zero_agent",
+    "title": "From Zero to Your First AI Agent in 25 Minutes (No Coding)",
+    "channel": "Futurepedia",
+    "duration": 1557,
+    "view_count": 3819827,
+    "chapters": [
+      {
+        "start_time": 0.0,
+        "title": "Intro",
+        "end_time": 33.0
+      },
+      {
+        "start_time": 33.0,
+        "title": "What is an Agent?",
+        "end_time": 54.0
+      },
+      {
+        "start_time": 54.0,
+        "title": "Agents vs. Automations",
+        "end_time": 129.0
+      },
+      {
+        "start_time": 129.0,
+        "title": "3 Main Components",
+        "end_time": 209.0
+      },
+      {
+        "start_time": 209.0,
+        "title": "Types of Systems",
+        "end_time": 265.0
+      },
+      {
+        "start_time": 265.0,
+        "title": "Guardrails",
+        "end_time": 305.0
+      },
+      {
+        "start_time": 305.0,
+        "title": "Resources",
+        "end_time": 361.0
+      },
+      {
+        "start_time": 361.0,
+        "title": "Recap",
+        "end_time": 418.0
+      },
+      {
+        "start_time": 418.0,
+        "title": "APIs and HTTP Requests",
+        "end_time": 547.0
+      },
+      {
+        "start_time": 547.0,
+        "title": "What Can You Build?",
+        "end_time": 592.0
+      },
+      {
+        "start_time": 592.0,
+        "title": "n8n Overview",
+        "end_time": 668.0
+      },
+      {
+        "start_time": 668.0,
+        "title": "Agent Build Overview",
+        "end_time": 732.0
+      },
+      {
+        "start_time": 732.0,
+        "title": "Set Trigger",
+        "end_time": 746.0
+      },
+      {
+        "start_time": 746.0,
+        "title": "AI Agent Node",
+        "end_time": 800.0
+      },
+      {
+        "start_time": 800.0,
+        "title": "Connect the Brain",
+        "end_time": 880.0
+      },
+      {
+        "start_time": 880.0,
+        "title": "Setting up Memory",
+        "end_time": 954.0
+      },
+      {
+        "start_time": 954.0,
+        "title": "Adding Tools",
+        "end_time": 1368.0
+      },
+      {
+        "start_time": 1368.0,
+        "title": "Testing and Debugging",
+        "end_time": 1493.0
+      },
+      {
+        "start_time": 1493.0,
+        "title": "Possibilities From Here",
+        "end_time": 1557
+      }
+    ],
+    "chapter_count": 19,
+    "caption_available": true,
+    "caption_words": 10614,
+    "first_minute_words": 370,
+    "avg_words_per_minute": 409.0,
+    "first_minute_cue_count": 52,
+    "chapter_titles": [
+      "Intro",
+      "What is an Agent?",
+      "Agents vs. Automations",
+      "3 Main Components",
+      "Types of Systems",
+      "Guardrails",
+      "Resources",
+      "Recap",
+      "APIs and HTTP Requests",
+      "What Can You Build?",
+      "n8n Overview",
+      "Agent Build Overview"
+    ]
+  },
+  {
+    "id": "hermes_tutorial",
+    "title": "Hermes Agent Tutorial: The Self-Improving AI Assistant with DeepSeek v4",
+    "channel": "Derek Cheung | AI Agents Automation",
+    "duration": 638,
+    "view_count": 217876,
+    "chapters": [
+      {
+        "start_time": 0.0,
+        "title": "Hermes Agent Demo: Build a Database Table from Telegram",
+        "end_time": 30.0
+      },
+      {
+        "start_time": 30.0,
+        "title": "What is Hermes Agent + Nous Research Background",
+        "end_time": 90.0
+      },
+      {
+        "start_time": 90.0,
+        "title": "Self-Improving Learning Loop Explained",
+        "end_time": 225.0
+      },
+      {
+        "start_time": 225.0,
+        "title": "Connecting Hermes Agent to Supabase via MCP",
+        "end_time": 345.0
+      },
+      {
+        "start_time": 345.0,
+        "title": "Live Demo: Building a CRM from Telegram",
+        "end_time": 480.0
+      },
+      {
+        "start_time": 480.0,
+        "title": "Full Stack Pricing (~$10/Month)",
+        "end_time": 555.0
+      },
+      {
+        "start_time": 555.0,
+        "title": "One Thing to Know (It's Still v0.x)",
+        "end_time": 585.0
+      },
+      {
+        "start_time": 585.0,
+        "title": "Outro + Resources",
+        "end_time": 638
+      }
+    ],
+    "chapter_count": 8,
+    "caption_available": true,
+    "caption_words": 3666,
+    "first_minute_words": 309,
+    "avg_words_per_minute": 344.8,
+    "first_minute_cue_count": 59,
+    "chapter_titles": [
+      "Hermes Agent Demo: Build a Database Table from Telegram",
+      "What is Hermes Agent + Nous Research Background",
+      "Self-Improving Learning Loop Explained",
+      "Connecting Hermes Agent to Supabase via MCP",
+      "Live Demo: Building a CRM from Telegram",
+      "Full Stack Pricing (~$10/Month)",
+      "One Thing to Know (It's Still v0.x)",
+      "Outro + Resources"
+    ]
+  },
+  {
+    "id": "mcp_explained",
+    "title": "Model Context Protocol (MCP) Explained for Beginners: AI Flight Booking Demo!",
+    "channel": "KodeKloud",
+    "duration": 1449,
+    "view_count": 1152238,
+    "chapters": [
+      {
+        "start_time": 0.0,
+        "title": "Introduction to AI Agents & MCPs",
+        "end_time": 40.0
+      },
+      {
+        "start_time": 40.0,
+        "title": "ChatGPT Breakdown",
+        "end_time": 83.0
+      },
+      {
+        "start_time": 83.0,
+        "title": "Why LLMs Can't Take Action",
+        "end_time": 188.0
+      },
+      {
+        "start_time": 188.0,
+        "title": "What Are AI Agents? The Game-Changing Solution",
+        "end_time": 228.0
+      },
+      {
+        "start_time": 228.0,
+        "title": "Real-world Agent Examples: IDEs, Cursor, GitHub Copilot",
+        "end_time": 295.0
+      },
+      {
+        "start_time": 295.0,
+        "title": "How to get started with AI Agents?",
+        "end_time": 347.0
+      },
+      {
+        "start_time": 347.0,
+        "title": "Understanding APIs & Tools",
+        "end_time": 587.0
+      },
+      {
+        "start_time": 587.0,
+        "title": "Model Context Protocols (MCPs): The Universal Solution",
+        "end_time": 762.0
+      },
+      {
+        "start_time": 762.0,
+        "title": "A2A Protocol: The Next Level",
+        "end_time": 839.0
+      },
+      {
+        "start_time": 839.0,
+        "title": "Real-world Use Cases",
+        "end_time": 925.0
+      },
+      {
+        "start_time": 925.0,
+        "title": "Setting Up Your First MCP - Hands on Demo",
+        "end_time": 1148.0
+      },
+      {
+        "start_time": 1148.0,
+        "title": "Lab Demo: Configuring Client with Flight MCP",
+        "end_time": 1449
+      }
+    ],
+    "chapter_count": 12,
+    "caption_available": true,
+    "caption_words": 9438,
+    "first_minute_words": 371,
+    "avg_words_per_minute": 390.8,
+    "first_minute_cue_count": 53,
+    "chapter_titles": [
+      "Introduction to AI Agents & MCPs",
+      "ChatGPT Breakdown",
+      "Why LLMs Can't Take Action",
+      "What Are AI Agents? The Game-Changing Solution",
+      "Real-world Agent Examples: IDEs, Cursor, GitHub Copilot",
+      "How to get started with AI Agents?",
+      "Understanding APIs & Tools",
+      "Model Context Protocols (MCPs): The Universal Solution",
+      "A2A Protocol: The Next Level",
+      "Real-world Use Cases",
+      "Setting Up Your First MCP - Hands on Demo",
+      "Lab Demo: Configuring Client with Flight MCP"
+    ]
+  },
+  {
+    "id": "openclaw_minimax",
+    "title": "OpenClaw + MiniMax Agent: Personal AI Assistant That Uses Gmail, Calendar & 200+ Tools",
+    "channel": "Derek Cheung | AI Agents Automation",
+    "duration": 561,
+    "view_count": 201602,
+    "chapters": [
+      {
+        "start_time": 0.0,
+        "title": "AI Assistant Morning Briefing Demo",
+        "end_time": 40.0
+      },
+      {
+        "start_time": 40.0,
+        "title": "What Is MiniMax Agent",
+        "end_time": 75.0
+      },
+      {
+        "start_time": 75.0,
+        "title": "Desktop App: Build Apps & Research Reports",
+        "end_time": 180.0
+      },
+      {
+        "start_time": 180.0,
+        "title": "Composio Setup: Gmail & Google Calendar Integration",
+        "end_time": 330.0
+      },
+      {
+        "start_time": 330.0,
+        "title": "MaxClaw: Deploy Your Assistant to the Cloud 24/7",
+        "end_time": 480.0
+      },
+      {
+        "start_time": 480.0,
+        "title": "Experts Marketplace & Skills Hub",
+        "end_time": 510.0
+      },
+      {
+        "start_time": 510.0,
+        "title": "M2.7 Model: Benchmarks & Performance",
+        "end_time": 561
+      }
+    ],
+    "chapter_count": 7,
+    "caption_available": true,
+    "caption_words": 2986,
+    "first_minute_words": 340,
+    "avg_words_per_minute": 319.4,
+    "first_minute_cue_count": 51,
+    "chapter_titles": [
+      "AI Assistant Morning Briefing Demo",
+      "What Is MiniMax Agent",
+      "Desktop App: Build Apps & Research Reports",
+      "Composio Setup: Gmail & Google Calendar Integration",
+      "MaxClaw: Deploy Your Assistant to the Cloud 24/7",
+      "Experts Marketplace & Skills Hub",
+      "M2.7 Model: Benchmarks & Performance"
+    ]
+  }
+]

@@ -1,0 +1,1 @@
+"""Outlier search module."""

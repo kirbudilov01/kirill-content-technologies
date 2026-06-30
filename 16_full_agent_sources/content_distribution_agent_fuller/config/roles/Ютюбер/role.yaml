@@ -1,0 +1,10 @@
+role_name: "Ютюбер"
+description: "Фокус на долгих видео, позиционировании канала и упаковке выпуска"
+outputs:
+  - long_video
+  - shorts_from_long
+  - channel_metadata
+priorities:
+  - "сильный заголовок"
+  - "удержание по главам"
+  - "консистентный стиль канала"

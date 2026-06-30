@@ -1,0 +1,10 @@
+role_name: "PRODUCER"
+description: "SEO packaging role: titles, descriptions, thumbnails, shorts SEO"
+outputs:
+  - seo_package
+  - thumbnail_package
+  - shorts_seo
+priorities:
+  - "clarity and discoverability"
+  - "shorts naming consistency"
+  - "high-readability thumbnail direction"

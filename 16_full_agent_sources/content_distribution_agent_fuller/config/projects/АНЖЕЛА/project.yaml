@@ -1,0 +1,10 @@
+project_name: "АНЖЕЛА"
+owner: "Анжела"
+role_profile: "Клипмейкер"
+template_profile: "Александр"
+notes: "Проект под отдельные фишки подачи и монтажного темпа"
+queue:
+  incoming: "01_входящие"
+  processing: "02_в_работе"
+  posting: "03_постинг"
+  published: "04_опубликовано"

@@ -1,0 +1,2 @@
+Postiz is an open-source AI scheduler for every social channel.
+For AtlasRepo, this is not just a tool. It is distribution infrastructure.

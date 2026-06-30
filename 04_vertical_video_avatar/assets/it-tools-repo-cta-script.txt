@@ -1,0 +1,3 @@
+IT-Tools is one of those open source repos that instantly makes sense.
+It gives developers a private local toolbox for tokens, hashes, UUIDs, encoders, converters, and everyday utilities.
+This is exactly the kind of repo AtlasRepo should find, launch, record, and turn into a workflow.

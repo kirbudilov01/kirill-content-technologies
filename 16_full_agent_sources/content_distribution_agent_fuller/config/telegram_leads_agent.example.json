@@ -1,0 +1,15 @@
+{
+  "api_id": 0,
+  "api_hash": "",
+  "session_file": "/Users/kirill/Desktop/CONTENT DISTRIBUTION/TELEGRAM : THREADS AGENT/telegram_session",
+  "persona_file": "/Users/kirill/Desktop/CONTENT DISTRIBUTION/ABOUT ME /about3.md",
+  "watch_usernames": [
+    "mikekosarev"
+  ],
+  "min_score": 0.72,
+  "auto_reply": false,
+  "max_actions_per_cycle": 3,
+  "cycle_seconds": 900,
+  "ollama_host": "http://127.0.0.1:11434",
+  "ollama_model": "llama3.1"
+}

@@ -1,0 +1,102 @@
+app:
+  project_name: shorts-mvp
+  output_dir: ../../output
+  temp_dir: ../../tmp
+  max_clips: 6
+  min_clip_seconds: 26
+  max_clip_seconds: 44
+  max_candidates: 48
+
+transcription:
+  mode: faster_whisper_with_fallback
+  cache_enabled: true
+  language: null
+  model_size: small
+  device: auto
+  compute_type: int8
+  beam_size: 3
+  vad_filter: true
+
+highlight:
+  use_llm_rerank: true
+  keyword_boost:
+    - "секрет"
+    - "ошибка"
+    - "важно"
+    - "совет"
+    - "результат"
+    - "агент"
+    - "автоматизация"
+    - "система"
+    - "деньги"
+    - "заработок"
+    - "agent"
+    - "automation"
+    - "system"
+    - "money"
+    - "result"
+    - "mistake"
+    - "secret"
+    - "framework"
+    - "workflow"
+    - "percent"
+    - "million"
+    - "free"
+    - "replace"
+  intro_penalty_phrases:
+    - "в этом видео"
+    - "подпишись"
+    - "ставь лайк"
+    - "всем привет"
+
+render:
+  target_width: 1080
+  target_height: 1920
+  video_codec: libx264
+  audio_codec: aac
+  crf: 20
+  preset: medium
+  blur_sigma: 25
+
+  # --- Subtitle style (streaming brand: clean white on dark purple) ---
+  subtitle_font_name: Arial
+  subtitle_font_size: 82
+  subtitle_font_style: duplex        # cleaner, more modern than "complex"
+  subtitle_color_bgr: [255, 255, 255]          # white text
+  subtitle_outline_color_bgr: [248, 98, 184]   # exact purple from banner
+  subtitle_shadow_color_bgr: [90, 20, 70]      # dark violet shadow
+  subtitle_outline: 5
+  subtitle_shadow: 2
+  subtitle_margin_v: 348             # raised 20% above midpoint
+  subtitle_max_lines: 1
+  subtitle_max_chars_per_line: 16
+  subtitle_max_words_per_line: 2
+  subtitle_footer_enabled: false
+
+  # --- Top overlay: streaming brand banner ---
+  promo_enabled: true
+  promo_overlay_image_path: "../../assets/generated/streaming_top_banner.png"
+  promo_start_seconds: 0.0
+  promo_duration_seconds: 0.0        # show entire clip
+  promo_top_margin: 160              # move banner much lower
+  promo_height: 200                  # will be overridden by natural aspect ratio
+
+  loudnorm: true
+  loudnorm_target_lufs: -13
+  smart_crop_enabled: true
+  smart_crop_sample_seconds: 1.8
+  smart_crop_max_samples: 20
+  reframe_mode: auto
+  auto_crop_min_keep_ratio: 0.42
+  background_music_path: null
+  background_music_volume: 0.12
+
+automation:
+  queue_root: "/Users/kirill/Desktop/ФИЛЬМЫ"
+  categories:
+    - "ЮМОР"
+    - "КОРЕЯ"
+    - "ИНТЕЛЛЕКТ"
+    - "СТАРОЕ КИНО"
+    - "untitled folder"
+  autopilot_interval_seconds: 300

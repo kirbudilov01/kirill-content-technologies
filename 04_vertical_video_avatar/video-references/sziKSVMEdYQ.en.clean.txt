@@ -1,0 +1,365 @@
+Hello everyone. My name [music] is
+Mythos. As you can see, I'm a small
+Android who will guide you through this
+tutorial. Today, we're going to install
+ComfyUI, but first, what is ComfyUI?
+ComfyUI is a Python-based program used
+to create and control [music] AI image
+generation workflows through nodes in a
+visual and modular way.
+It's the core program we'll use to
+create content, and you need to have it
+installed locally if you want to [music]
+take full advantage of it. Here, you can
+run all kinds of diffusion and image
+generation models locally and for free,
+such as Flux, Kwen, Wan, [music]
+or Z Image, since most of these models
+are open source.
+This allows you to work with artificial
+intelligence without paying the high
+prices charged by [music] Google,
+OpenAI, and other platforms. But before
+we begin, let's go over the system
+requirements.
+All right, to work with this program,
+you'll need a computer with fairly high
+specifications.
+Let's take a look.
+As we can see here, on the official
+GitHub page, the best option is an
+Nvidia graphics card.
+This is the most important component for
+ComfyUI, and even though it says that
+any GPU will work, not all of them will
+be equally fast or efficient.
+My recommendation, if you want to use
+all the new models coming out since they
+offer the best quality, is to have at
+least a [music] 4070 or better.
+In my case, I have an RTX 4070 [music]
+with 12 GB, and sometimes I feel like I
+need more power for models like Kwen
+[music] or Flux.
+As for RAM and CPU, even though they're
+not explicitly mentioned here, they're
+still important, especially the RAM,
+which acts as a bridge between the
+processor and the GPU. So, I recommend
+at least 32 GB. I use DDR4 because it's
+cheaper,
+>> [music]
+>> but DDR5 will perform better. And
+lastly, you should have plenty of SSD
+storage,
+>> [music]
+>> and I do mean SSD. Don't even try doing
+this on a traditional HDD because it
+will make model loading extremely slow.
+I recommend at least 1 to 2 terabytes to
+ensure you have enough room for your
+models.
+Now, after hearing all this, you might
+be a bit scared since these requirements
+are high even for gamers. Unfortunately,
+[music] that's the reality. Even if you
+don't have the specs I mentioned, you
+can still use ComfyUI and get results,
+but don't expect the highest quality.
+I'll try to offer workflows on this
+channel aimed at people with low VRAM.
+So, if you just want to experiment a
+bit, you won't have any problems.
+However, if you want the maximum
+quality, even I can't achieve that with
+my RTX 4070,
+there's another great option,
+renting graphics cards. [music] And
+that's where this platform called RunPod
+comes in. Here, you can rent GPUs like
+the 5090
+for around $0.69 per hour
+>> [music]
+>> without using any electricity from your
+home. That's not a bad price, especially
+considering how RAM prices have gone up
+in recent weeks.
+I won't go into too much detail about
+RunPod,
+>> [music]
+>> but you'll see me using it in my
+projects.
+The important thing is that even if you
+don't have a powerful machine, you can
+still [music] achieve maximum quality
+this way. If you're going to work with
+RunPod, keep in [music] mind that
+ComfyUI already comes pre-installed on
+these services, so you won't need this
+tutorial. And if you don't want to
+follow all the steps in this tutorial
+>> [music]
+>> and prefer to install everything with a
+single click, I recommend purchasing the
+[music] installation package linked in
+the description.
+This file will automatically install the
+entire program
+>> [music]
+>> without needing to follow the manual
+steps, which can save you some time.
+Now, let's move on to the manual
+installation.
+All right, we're going to start a
+somewhat customized installation of
+ComfyUI. For us as artists, the most
+important things are a few key features.
+First, the version needs to be portable.
+This gives us better performance,
+[music]
+greater flexibility, and full control
+over Python and CUDA dependencies.
+This is very important because ComfyUI
+isn't a particularly stable program.
+It's constantly being updated, [music]
+and many times we'll want to use older
+versions instead of the latest ones,
+since new updates often introduce
+incompatibilities.
+This setup will help most people who
+have a standard [music] machine or low
+VRAM.
+Second, it should run in an isolated
+Python environment, also known as a
+virtual environment or venv.
+This allows us to install and use other
+Python-based programs alongside [music]
+ComfyUI without compatibility issues.
+Tools like Kohya_ss [music] or Flux Gym
+can be very useful, and this setup
+prevents conflicts between them. Third,
+we'll install the most stable and
+reliable Python [music] version. By
+choosing a specific version, Python 3.10
+in this case, we avoid many of the
+errors introduced in later releases.
+Now, if you download the portable
+version from the official website,
+ComfyUI will be installed, but not with
+these specific configurations.
+That's why in this tutorial, I'll show
+you how to do everything manually, step
+by step.
+We'll start by installing Python. As you
+can see on the official Python website,
+you can find version 3.10, which is the
+one we'll install on our PC.
+>> [music]
+>> It's important to check the box labeled
+add to path. Next, we'll install Git.
+Git is a platform for developers, and
+we'll use it to download all the ComfyUI
+files.
+>> [music]
+>> Because of that, it's important to
+install Git and create an account.
+Finally, we'll update our graphics card
+drivers.
+In my case, [music] I'm using an RTX
+with 12 GB of VRAM. This tutorial is
+specifically for Nvidia graphics cards,
+>> [music]
+>> since they support CUDA.
+All right, from this point on, if you
+want to skip the rest of the tutorial, I
+recommend, just as I mentioned earlier,
+>> [music]
+>> downloading the automatic installer. It
+will do exactly what we're about to see
+next, but in a fully automated way.
+It's important to specify the directory
+where ComfyUI will be installed. By
+default, it will use the most common
+path, the one you see here on my screen,
+but you can change it if you [music]
+want, and then save your selection.
+All right, now let's move on to the
+manual installation. ComfyUI gives us
+two options, installing it as a desktop
+application, [music]
+like any standard program as we saw
+before,
+or installing it as a portable or manual
+setup.
+I'll choose the same directory I use in
+the automatic installer, on my M.2 SSD,
+[music] since it's the fastest drive I
+have, and it has 2 TB of space.
+However, you can install it wherever you
+want. Just keep in mind that this folder
+will eventually contain a very large
+amount of data, as we'll be downloading
+many files to work with ComfyUI over
+time. This is not a traditional program
+like Photoshop, where it usually takes
+up around 20 GB at most. Depending on
+how you use it, and how many models you
+work with, ComfyUI [music] can easily
+take up 500 GB of storage or more.
+As we mentioned earlier, we're going to
+install it in a portable or manual way,
+because it offers better performance,
+greater flexibility, full control over
+Python and CUDA [music] dependencies,
+easier node installation, and better
+tools for debugging issues.
+A file in 7z format will be downloaded.
+Next, you should install 7z if you don't
+already have it installed on your PC.
+Once that's done, extract the 7z file.
+Just to clarify, I'm recording this in
+November 2025,
+>> [music]
+>> and the installation process may change
+significantly with future updates.
+However, ComfyUI usually updates within
+the same directories that I'm showing
+[music] you in this tutorial, which I'll
+also leave linked in the video
+description.
+At the moment, this file has one issue.
+It [music] does not include the full Git
+repository, which we need in order to
+install the ComfyUI Manager. To fix
+this, you'll need to delete the ComfyUI
+folder inside ComfyUI_windows_portable.
+Once it's deleted, open the command
+prompt inside that directory and paste
+the link you see on screen, which will
+also be available in the video
+description. If you haven't installed
+Git, as we did in step three,
+this will not [music] work. After doing
+this, you'll have the complete Git
+repository properly set up.
+All right. Now, we're going to set up
+ComfyUI inside a virtual environment.
+It's always recommended to create a
+virtual environment.
+>> [music]
+>> A virtual environment is like an
+isolated Python bubble, where you can
+install libraries without affecting the
+rest of your system. If we don't do
+this, other programs can cause
+conflicts. In my case, tools like Kohya
+[music] SS or XTTS may fail to run, or
+they could even affect how ComfyUI
+works. [music]
+As you can see, an executable file
+called run_nvidia_gpu.bat
+[music]
+This is the file we're interested in,
+but if we run it as is, ComfyUI will
+install without using a virtual
+environment. So, how do we fix that?
+We'll create the virtual environment
+inside the ComfyUI folder.
+>> [music]
+>> The folder will be called venv.
+To do this, we'll open the command
+prompt inside that directory
+>> [music]
+>> and paste the command you see on screen,
+which will also be included in the
+description.
+This should create the venv [music]
+folder, and with it, the virtual
+environment. Once it's created, we'll
+make our own executable. We'll duplicate
+run_nvidia_gpu.bat
+[music]
+and rename it to run_comfyui.bat.
+Then, we'll open it with Notepad and add
+a line with the command you see on
+screen.
+>> [music]
+>> This way, both the installation and the
+program will run from the virtual
+environment, and every time we open
+ComfyUI, [music]
+it will always use its own isolated
+Python environment.
+This is extremely helpful if you also
+use other specialized tools for Laura
+creation, such as Kohya_SS or FluxGem.
+Finally, I recommend sending this .bat
+[music] file to your desktop as a
+shortcut for convenience.
+But for now, we're not going to run it
+just yet.
+Now, we're going to install the
+requirements and dependencies inside the
+virtual environment. First, open the
+command prompt in the ComfyUI folder,
+and then activate the virtual
+environment using the activate command.
+Then, access [music] the ComfyUI folder
+with this command. Once the environment
+is active, [music] install the
+requirements by running
+pip install -r requirements.txt. [music]
+This will install a version of PyTorch
+that is probably not compatible with
+your CUDA version.
+When it finishes, uninstall it by
+running pip uninstall torch torchvision
+torchaudio-y
+next. We need to install the correct
+version for your CUDA [music] setup. To
+check which CUDA version you have, run
+nvidia-smi.
+In my case, it shows [music] CUDA 13.1,
+so I install PyTorch with pip install
+torch torchvision torchaudio index-url
+https://download.pytorch.org/whl/cu113.
+[music]
+Keep in mind that every time you update
+your GPU drivers, your CUDA version may
+change. When that happens, ComfyUI will
+stop working until PyTorch is
+reinstalled.
+>> [music]
+>> So, make sure to remember this step. The
+next time you update your drivers, check
+your new CUDA version, uninstall
+PyTorch, and reinstall it using the
+correct version, just like we did here.
+We're almost done. Now, we're going to
+download ComfyUI Manager. To do this,
+open the command prompt in virtual
+environment using activate.
+After that, navigate to the custom nodes
+folder by running CD custom nodes, then
+paste the following command.
+Perfect. We now have ComfyUI installed.
+Finally, we'll launch ComfyUI using our
+shortcut. The first time it runs, it may
+take a little longer, but after that,
+the loading time will be similar to any
+other moderately demanding application.
+As you can see, this is ComfyUI. Today,
+we won't be talking about the interface
+or how it works, since this is an
+installation tutorial. [music]
+In future projects, I'll explain some
+important aspects you need to know to
+properly use this amazing program.
+[music]
+We'll click this button, and that's it.
+ComfyUI is now set up [music] in a
+portable way and running inside an
+isolated environment. If this tutorial
+was helpful, please leave a like. It
+helps me a lot. Thanks for watching the
+video.

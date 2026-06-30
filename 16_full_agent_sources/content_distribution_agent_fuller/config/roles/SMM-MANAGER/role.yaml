@@ -1,0 +1,10 @@
+role_name: "SMM-MANAGER"
+description: "Social distribution role: posts and text adaptation across platforms"
+outputs:
+  - smm_posts
+  - human_presence_posts
+  - social_schedule
+priorities:
+  - "platform-native adaptation"
+  - "reuse base assets"
+  - "consistent posting cadence"

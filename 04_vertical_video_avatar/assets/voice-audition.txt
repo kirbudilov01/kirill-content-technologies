@@ -1,0 +1,10 @@
+This AI agent can control your computer.
+
+But the real question is not whether the demo looks impressive.
+
+The real question is what workflow it unlocks.
+
+Can it research competitors, open tools, collect signals, write a report, and hand the next step to Codex or Claude?
+
+That is the kind of system we track inside AtlasRepo.
+

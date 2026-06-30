@@ -1,0 +1,21 @@
+role_name: "TELEGRAM-LEADS-AGENT"
+description: "Telegram DM lead monitor for one account: detect relevant asks, prepare thoughtful reply, optional auto-send"
+outputs:
+  - telegram_lead_candidates
+  - reply_drafts
+  - outreach_log
+priorities:
+  - "focus on incoming requests with hiring/build intent in IT/AI/app/web/telegram"
+  - "human concise tone, specific fit, soft CTA"
+  - "safe mode first: drafts only, then enable auto_reply"
+constraints:
+  - "no links in first touch"
+  - "no spam follow-ups"
+  - "one user message -> one thoughtful response"
+autopilot_policy:
+  cycle_seconds: 900
+  max_actions_per_cycle: 3
+  min_score: 0.72
+  auto_reply: false
+persona_source:
+  primary_file: "/Users/kirill/Desktop/CONTENT DISTRIBUTION/ABOUT ME /about3.md"

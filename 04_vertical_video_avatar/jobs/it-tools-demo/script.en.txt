@@ -1,0 +1,5 @@
+This is IT Tools: an open-source toolbox for developers that you can run locally in a few minutes.
+It has generators, converters, JSON tools, JWT, Base64, hashes, cron helpers, and dozens of tiny utilities with no sign-up wall.
+The AtlasRepo idea is simple: we do not just bookmark repos, we turn them into working playbooks.
+Find the tool, launch it, verify it, record the demo, make the short review, and push it into the content engine.
+That is what an AI scout should do: discover useful software early and turn every find into action.

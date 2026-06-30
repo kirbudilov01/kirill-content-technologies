@@ -1,0 +1,5 @@
+Did you know you can stop manually posting the same content everywhere?
+I recently found Postiz, an open-source repo for planning, scheduling, and distributing content across platforms.
+Calendar, composer, queue, connected channels: basically the boring part that decides whether anyone sees what you made.
+Would you use an open-source social media scheduler instead of a paid one?
+If you want more tools like this, AtlasRepo is linked in the channel header.
